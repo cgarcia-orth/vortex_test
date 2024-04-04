@@ -1,0 +1,5 @@
+PV = 1.0.5
+PR = r0
+DEPENDS = cmake-native gtest libjson libsole ninja-native rsync-native spdlog systemd virtual/arm-fslc-linux-gnueabi-compilerlibs virtual/arm-fslc-linux-gnueabi-gcc virtual/libc
+PACKAGES = vortex-core-dbg vortex-core-staticdev vortex-core-dev vortex-core-doc vortex-core-locale vortex-core
+LAYER = vortex-apps
