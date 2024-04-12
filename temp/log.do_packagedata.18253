@@ -1,0 +1,32 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing shell function do_packagedata
+DEBUG: Shell function do_packagedata finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Preparing tree /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/pkgdata for packaging at /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/sstate-build-packagedata/pkgdata
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/sstate-build-packagedata/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot' -e '/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot-native' -e '/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/hosttools' | tee /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/sstate-build-packagedata/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot-native:FIXMESTAGINGDIRHOST:g' -e 's:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function buildhistory_emit_outputsigs
+DEBUG: Python function buildhistory_emit_outputsigs finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/pkgdata to /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/pkgdata/var-som-mx6
+DEBUG: Executing python function buildhistory_emit_pkghistory
+DEBUG: Writing recipe history
+DEBUG: Writing package history for package vortex-core-dbg
+DEBUG: Writing package history for package vortex-core-staticdev
+DEBUG: Writing package history for package vortex-core-dev
+DEBUG: Writing package history for package vortex-core-doc
+DEBUG: Writing package history for package vortex-core-locale
+DEBUG: Writing package history for package vortex-core
+DEBUG: Executing shell function buildhistory_list_pkg_files
+DEBUG: Shell function buildhistory_list_pkg_files finished
+DEBUG: Python function buildhistory_emit_pkghistory finished
+DEBUG: Python function sstate_task_postfunc finished
