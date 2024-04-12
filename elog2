@@ -129,12 +129,20 @@ ABIEXTENSION="eabi"
 #     ""
 ABIEXTENSION_class-nativesdk=""
 #
-# $ACCEPT_FSL_EULA [3 operations]
+# $ACCEPT_FSL_EULA [7 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:259
 #     "1"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:282
 #     "1"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:305
+#     "1"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:328
+#     "1"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:351
+#     "1"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:375
+#     "1"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:398
 #     "1"
 # pre-expansion value:
 #   "1"
@@ -1954,7 +1962,7 @@ BBLAYERS_LAYERINDEX_NAME_core="openembedded-core"
 #     [_defaultval] "http://layers.openembedded.org/layerindex/"
 BBLAYERS_LAYERINDEX_URL="http://layers.openembedded.org/layerindex/"
 #
-# $BBMASK [9 operations]
+# $BBMASK [17 operations]
 #   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:269
 #     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb"
 #   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:270
@@ -1967,6 +1975,22 @@ BBLAYERS_LAYERINDEX_URL="http://layers.openembedded.org/layerindex/"
 #     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb"
 #   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:316
 #     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend"
+#   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:338
+#     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb"
+#   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:339
+#     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend"
+#   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:361
+#     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb"
+#   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:362
+#     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend"
+#   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:385
+#     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb"
+#   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:386
+#     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend"
+#   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:408
+#     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb"
+#   append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:409
+#     "/meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend"
 #   _prepend /home/vortex/build/Vortex_SourceCode/yocto/meta-variscite-fslc/conf/machine/include/variscite.inc:66
 #     "fsl-image-mfgtool-initramfs "
 #   append /home/vortex/build/Vortex_SourceCode/yocto/meta-variscite-fslc/conf/machine/include/variscite.inc:67
@@ -1974,8 +1998,8 @@ BBLAYERS_LAYERINDEX_URL="http://layers.openembedded.org/layerindex/"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:90
 #     [doc] "Prevents BitBake from processing specific recipes or recipe append files."
 # pre-expansion value:
-#   "fsl-image-mfgtool-initramfs  /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend meta-freescale/dynamic-layers/browser-layer/recipes-browser/chromium"
-BBMASK="fsl-image-mfgtool-initramfs  /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend meta-freescale/dynamic-layers/browser-layer/recipes-browser/chromium"
+#   "fsl-image-mfgtool-initramfs  /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend meta-freescale/dynamic-layers/browser-layer/recipes-browser/chromium"
+BBMASK="fsl-image-mfgtool-initramfs  /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-splash.bb /meta-vortex-var-som-mx6/recipes-bsp/u-boot/u-boot-variscite.bbappend meta-freescale/dynamic-layers/browser-layer/recipes-browser/chromium"
 #
 # $BBPATH [65 operations]
 #   from env data.py:125 [inheritFromOS]
@@ -2201,13 +2225,9 @@ BB_BASEHASH_task-do_package_qa_setscene="394fba7aac343159f8cf34982c68e5c5"
 #     "ca44883007a3b3a40545dff20f3c85b3"
 BB_BASEHASH_task-do_package_setscene="ca44883007a3b3a40545dff20f3c85b3"
 #
-# $BB_BASEHASH_task-do_package_write_rpm [2 operations]
+# $BB_BASEHASH_task-do_package_write_rpm
 #   set siggen.py:146 [finalise]
 #     "0aee13fa79c8084c734f67a3122edc13"
-#   override[setscene]:set siggen.py:146 [finalise]
-#     "394fba7aac343159f8cf34982c68e5c5"
-# pre-expansion value:
-#   "0aee13fa79c8084c734f67a3122edc13"
 BB_BASEHASH_task-do_package_write_rpm="0aee13fa79c8084c734f67a3122edc13"
 #
 # $BB_BASEHASH_task-do_package_write_rpm_setscene
@@ -2215,9 +2235,13 @@ BB_BASEHASH_task-do_package_write_rpm="0aee13fa79c8084c734f67a3122edc13"
 #     "394fba7aac343159f8cf34982c68e5c5"
 BB_BASEHASH_task-do_package_write_rpm_setscene="394fba7aac343159f8cf34982c68e5c5"
 #
-# $BB_BASEHASH_task-do_packagedata
+# $BB_BASEHASH_task-do_packagedata [2 operations]
 #   set siggen.py:146 [finalise]
 #     "56cd71d2844442a4ae242913ec098a5e"
+#   override[setscene]:set siggen.py:146 [finalise]
+#     "394fba7aac343159f8cf34982c68e5c5"
+# pre-expansion value:
+#   "56cd71d2844442a4ae242913ec098a5e"
 BB_BASEHASH_task-do_packagedata="56cd71d2844442a4ae242913ec098a5e"
 #
 # $BB_BASEHASH_task-do_packagedata_setscene
@@ -2230,13 +2254,9 @@ BB_BASEHASH_task-do_packagedata_setscene="394fba7aac343159f8cf34982c68e5c5"
 #     "0d3158d5850cd95a3e6f0f55398b6cc9"
 BB_BASEHASH_task-do_patch="0d3158d5850cd95a3e6f0f55398b6cc9"
 #
-# $BB_BASEHASH_task-do_populate_lic [2 operations]
+# $BB_BASEHASH_task-do_populate_lic
 #   set siggen.py:146 [finalise]
 #     "33d08c688da39ccd622e8258d937482f"
-#   override[setscene]:set siggen.py:146 [finalise]
-#     "394fba7aac343159f8cf34982c68e5c5"
-# pre-expansion value:
-#   "33d08c688da39ccd622e8258d937482f"
 BB_BASEHASH_task-do_populate_lic="33d08c688da39ccd622e8258d937482f"
 #
 # $BB_BASEHASH_task-do_populate_lic_setscene
@@ -2244,13 +2264,9 @@ BB_BASEHASH_task-do_populate_lic="33d08c688da39ccd622e8258d937482f"
 #     "394fba7aac343159f8cf34982c68e5c5"
 BB_BASEHASH_task-do_populate_lic_setscene="394fba7aac343159f8cf34982c68e5c5"
 #
-# $BB_BASEHASH_task-do_populate_sysroot [2 operations]
+# $BB_BASEHASH_task-do_populate_sysroot
 #   set siggen.py:146 [finalise]
 #     "d096968319095988f0f5088c2d114a54"
-#   override[setscene]:set siggen.py:146 [finalise]
-#     "394fba7aac343159f8cf34982c68e5c5"
-# pre-expansion value:
-#   "d096968319095988f0f5088c2d114a54"
 BB_BASEHASH_task-do_populate_sysroot="d096968319095988f0f5088c2d114a54"
 #
 # $BB_BASEHASH_task-do_populate_sysroot_setscene
@@ -2277,10 +2293,10 @@ BB_CMDLINE="['/home/vortex/build/Vortex_SourceCode/yocto/poky/bitbake/bin/bitbak
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/bitbake.conf:860
 #     "${LOG_DIR}/cooker/${MACHINE}/${DATETIME}.log"
 #   set cooker.py:381 [initConfigurationData]
-#     "/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/log/cooker/var-som-mx6/20240412211859.log"
+#     "/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/log/cooker/var-som-mx6/20240412220308.log"
 # pre-expansion value:
-#   "/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/log/cooker/var-som-mx6/20240412211859.log"
-BB_CONSOLELOG="/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/log/cooker/var-som-mx6/20240412211859.log"
+#   "/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/log/cooker/var-som-mx6/20240412220308.log"
+BB_CONSOLELOG="/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/log/cooker/var-som-mx6/20240412220308.log"
 #
 # $BB_CURRENT_MC
 #   set cookerdata.py:342 [parseConfigurationFiles]
@@ -2314,12 +2330,20 @@ BB_DISKMON_DIRS="STOPTASKS,/home/vortex/build/Vortex_SourceCode/yocto/build_var-
 #     "ALL_PROXY BBPATH_EXTRA BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE VORTEX_ROOT all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy "
 BB_ENV_EXTRAWHITE="ALL_PROXY BBPATH_EXTRA BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE VORTEX_ROOT all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy "
 #
-# $BB_GENERATE_MIRROR_TARBALLS [5 operations]
+# $BB_GENERATE_MIRROR_TARBALLS [9 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:253
 #     "1"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:276
 #     "1"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:299
+#     "1"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:322
+#     "1"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:345
+#     "1"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:369
+#     "1"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:392
 #     "1"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/distro/include/default-distrovars.inc:35
 #     [_defaultval] "0"
@@ -2359,7 +2383,7 @@ BB_HASHFILENAME="False sstate:vortex-core:armv7at2hf-neon-fslc-linux-gnueabi:1.0
 BB_MIN_VERSION="1.39.1"
 #
 # $BB_NUMBER_THREADS [3 operations]
-#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:273
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:365
 #     "6"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:81
 #     [doc] "The maximum number of tasks BitBake should run in parallel at any one time. A good rule of thumb is to set this variable to twice the number of cores."
@@ -2371,8 +2395,8 @@ BB_NUMBER_THREADS="6"
 #
 # $BB_ORIGENV
 #   set cookerdata.py:273 [__init__]
-#     "<bb.data_smart.DataSmart object at 0x7fb668ed0cf8>"
-BB_ORIGENV="<bb.data_smart.DataSmart object at 0x7fb664706080>"
+#     "<bb.data_smart.DataSmart object at 0x7f0a3c56e8d0>"
+BB_ORIGENV="<bb.data_smart.DataSmart object at 0x7f0a37dc4ef0>"
 #
 # $BB_SETSCENE_DEPVALID
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/classes/sstate.bbclass:926
@@ -2893,7 +2917,7 @@ export CMAKE_ROOT_DIR="/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-
 #     [vardeps] "DISTRO_FEATURES MACHINE_FEATURES"
 # pre-expansion value:
 #   "${@oe.utils.set_intersect('DISTRO_FEATURES', 'MACHINE_FEATURES', d)}"
-COMBINED_FEATURES="usbgadget bluetooth alsa pci usbhost wifi"
+COMBINED_FEATURES="wifi usbgadget alsa bluetooth pci usbhost"
 #
 # $COMMERCIAL_AUDIO_PLUGINS
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/distro/include/default-distrovars.inc:28
@@ -3071,7 +3095,7 @@ DATE="20240412"
 #     [doc] "The date and time the build was started."
 # pre-expansion value:
 #   "${DATE}${TIME}"
-DATETIME="20240412211908"
+DATETIME="20240412220317"
 #
 # $DEBIANRDEP
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/classes/debian.bbclass:16
@@ -3496,16 +3520,24 @@ DISABLE_STATIC_pn-sqlite3=""
 #     ""
 DISABLE_STATIC_pn-sqlite3-native=""
 #
-# $DISTRO [10 operations]
+# $DISTRO [14 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/bitbake.conf:724
 #     [_defaultval] "nodistro"
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:89
 #     "poky"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:251
-#     "vortex-fslc-x11"
+#     "fslc-x11"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:274
 #     "vortex-fslc-x11"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:297
+#     "vortex-fslc-x11"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:320
+#     "vortex-fslc-x11"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:343
+#     "vortex-fslc-x11"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:367
+#     "vortex-fslc-x11"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:390
 #     "vortex-fslc-x11"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta-poky/conf/distro/poky.conf:1
 #     "poky"
@@ -3585,12 +3617,20 @@ DISTRO_EXTRA_RDEPENDS="  packagegroup-core-boot"
 #   "  ${POKY_DEFAULT_EXTRA_RRECOMMENDS}"
 DISTRO_EXTRA_RRECOMMENDS="  kernel-module-af-packet"
 #
-# $DISTRO_FEATURES [11 operations]
+# $DISTRO_FEATURES [15 operations]
 #   _append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:260
 #     " systemd"
 #   _append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:283
 #     " systemd"
 #   _append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:306
+#     " systemd"
+#   _append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:329
+#     " systemd"
+#   _append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:352
+#     " systemd"
+#   _append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:376
+#     " systemd"
+#   _append /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:399
 #     " systemd"
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/poky/meta-poky/conf/distro/poky.conf:22
 #     "${DISTRO_FEATURES_DEFAULT} ${DISTRO_FEATURES_LIBC} ${POKY_DEFAULT_DISTRO_FEATURES}"
@@ -3609,8 +3649,8 @@ DISTRO_EXTRA_RRECOMMENDS="  kernel-module-af-packet"
 #   append utils.py:125 [features_backfill]
 #     " pulseaudio gobject-introspection-data ldconfig"
 # pre-expansion value:
-#   "${DISTRO_FEATURES_DEFAULT} ${DISTRO_FEATURES_LIBC} ${POKY_DEFAULT_DISTRO_FEATURES} systemd systemd systemd bluez5 x11 pulseaudio gobject-introspection-data ldconfig"
-DISTRO_FEATURES="acl alsa argp bluetooth ext2 irda largefile pcmcia usbgadget usbhost wifi xattr nfs zeroconf pci 3g nfc x11 ipv4 ipv6 libc-backtrace libc-big-macros libc-bsd libc-cxx-tests libc-catgets libc-charsets libc-crypt 					libc-crypt-ufc libc-db-aliases libc-envz libc-fcvt libc-fmtmsg libc-fstab libc-ftraverse 					libc-getlogin libc-idn libc-inet-anl libc-libm libc-locales libc-locale-code 					libc-memusage libc-nsswitch libc-rcmd libc-rtld-debug libc-spawn libc-streams 					libc-utmp libc-utmpx libc-wordexp libc-posix-clang-wchar libc-posix-regexp libc-posix-regexp-glibc 					libc-posix-wchar-io largefile opengl ptest multiarch  vulkan systemd systemd systemd bluez5 x11 pulseaudio gobject-introspection-data ldconfig"
+#   "${DISTRO_FEATURES_DEFAULT} ${DISTRO_FEATURES_LIBC} ${POKY_DEFAULT_DISTRO_FEATURES} systemd systemd systemd systemd systemd systemd systemd bluez5 x11 pulseaudio gobject-introspection-data ldconfig"
+DISTRO_FEATURES="acl alsa argp bluetooth ext2 irda largefile pcmcia usbgadget usbhost wifi xattr nfs zeroconf pci 3g nfc x11 ipv4 ipv6 libc-backtrace libc-big-macros libc-bsd libc-cxx-tests libc-catgets libc-charsets libc-crypt 					libc-crypt-ufc libc-db-aliases libc-envz libc-fcvt libc-fmtmsg libc-fstab libc-ftraverse 					libc-getlogin libc-idn libc-inet-anl libc-libm libc-locales libc-locale-code 					libc-memusage libc-nsswitch libc-rcmd libc-rtld-debug libc-spawn libc-streams 					libc-utmp libc-utmpx libc-wordexp libc-posix-clang-wchar libc-posix-regexp libc-posix-regexp-glibc 					libc-posix-wchar-io largefile opengl ptest multiarch  vulkan systemd systemd systemd systemd systemd systemd systemd bluez5 x11 pulseaudio gobject-introspection-data ldconfig"
 #
 # $DISTRO_FEATURES_BACKFILL [2 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:139
@@ -3621,12 +3661,20 @@ DISTRO_FEATURES="acl alsa argp bluetooth ext2 irda largefile pcmcia usbgadget us
 #   "pulseaudio sysvinit bluez5 gobject-introspection-data ldconfig"
 DISTRO_FEATURES_BACKFILL="pulseaudio sysvinit bluez5 gobject-introspection-data ldconfig"
 #
-# $DISTRO_FEATURES_BACKFILL_CONSIDERED [4 operations]
+# $DISTRO_FEATURES_BACKFILL_CONSIDERED [8 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:262
 #     "sysvinit"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:285
 #     "sysvinit"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:308
+#     "sysvinit"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:331
+#     "sysvinit"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:354
+#     "sysvinit"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:378
+#     "sysvinit"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:401
 #     "sysvinit"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:140
 #     [doc] "Features from DISTRO_FEATURES_BACKFILL that should not be backfilled (i.e. added to DISTRO_FEATURES) during the build."
@@ -3714,12 +3762,20 @@ DISTRO_NAME="Vortex FSLC X11"
 #   "2.6.0"
 DISTRO_VERSION="2.6.0"
 #
-# $DL_DIR [5 operations]
+# $DL_DIR [9 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:252
 #     "/home/vortex/build/Vortex_SourceCode/3rd_parties"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:275
 #     "/home/vortex/build/Vortex_SourceCode/3rd_parties"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:298
+#     "/home/vortex/build/Vortex_SourceCode/3rd_parties"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:321
+#     "/home/vortex/build/Vortex_SourceCode/3rd_parties"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:344
+#     "/home/vortex/build/Vortex_SourceCode/3rd_parties"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:368
+#     "/home/vortex/build/Vortex_SourceCode/3rd_parties"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:391
 #     "/home/vortex/build/Vortex_SourceCode/3rd_parties"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:145
 #     [doc] "The central download directory used by the build process to store downloads. By default, the directory is 'downloads' in the Build Directory."
@@ -4927,7 +4983,7 @@ IMAGE_LINK_NAME="vortex-core-var-som-mx6"
 #     [doc] "The name of the output image files minus the extension."
 # pre-expansion value:
 #   "${IMAGE_BASENAME}-${MACHINE}${IMAGE_VERSION_SUFFIX}"
-IMAGE_NAME="vortex-core-var-som-mx6-20240412211908"
+IMAGE_NAME="vortex-core-var-som-mx6-20240412220317"
 #
 # $IMAGE_OVERHEAD_FACTOR [2 operations]
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/bitbake.conf:455
@@ -5016,7 +5072,7 @@ IMAGE_TYPEDEP_multiubi=" wic.bmap wic.gz tar.gz "
 #     [vardepsexclude] "DATETIME"
 # pre-expansion value:
 #   "-${DATETIME}"
-IMAGE_VERSION_SUFFIX="-20240412211908"
+IMAGE_VERSION_SUFFIX="-20240412220317"
 #
 # $IMX_DEFAULT_BOOTLOADER [2 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/meta-freescale/conf/machine/include/imx-base.inc:9
@@ -5223,12 +5279,20 @@ INITRAMFS_MAXSIZE="131072"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:240
 #     [doc] "Defines the Linux kernel source repository's default branch used to build the Linux kernel. Unless you specify otherwise, the variable initializes to 'master'."
 #
-# $KCONF_AUDIT_LEVEL [3 operations]
+# $KCONF_AUDIT_LEVEL [7 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:258
 #     "0"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:281
 #     "0"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:304
+#     "0"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:327
+#     "0"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:350
+#     "0"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:374
+#     "0"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:397
 #     "0"
 # pre-expansion value:
 #   "0"
@@ -5923,12 +5987,20 @@ LICENSE_DIRECTORY="/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/
 #     [_defaultval] "${datadir}/licenses/"
 LICENSE_FILES_DIRECTORY="/usr/share/licenses/"
 #
-# $LICENSE_FLAGS_WHITELIST [3 operations]
+# $LICENSE_FLAGS_WHITELIST [7 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:257
 #     "commercial"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:280
 #     "commercial"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:303
+#     "commercial"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:326
+#     "commercial"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:349
+#     "commercial"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:373
+#     "commercial"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:396
 #     "commercial"
 # pre-expansion value:
 #   "commercial"
@@ -6093,7 +6165,7 @@ LOCALE_UTF8_ONLY="0"
 # $LOGFIFO
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/classes/logging.bbclass:6
 #     "${T}/fifo.${@os.getpid()}"
-LOGFIFO="/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124"
+LOGFIFO="/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168"
 #
 # $LOGNAME [2 operations]
 #   from env data.py:125 [inheritFromOS]
@@ -6113,12 +6185,22 @@ export LOGNAME="vortex"
 #   "${TMPDIR}/log"
 LOG_DIR="/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/log"
 #
-# $MACHINE [5 operations]
+# $MACHINE [10 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:38
 #     [_defaultval] "qemux86"
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:250
 #     "var-som-mx6"
+#   set? /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:273
+#     "var-som-mx6"
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:296
+#     "var-som-mx6"
+#   set? /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:319
+#     "var-som-mx6"
+#   set? /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:342
+#     "var-som-mx6"
+#   set? /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:366
+#     "var-som-mx6"
+#   set? /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:389
 #     "var-som-mx6"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:272
 #     [doc] "Specifies the target device for which the image is built. You define MACHINE in the conf/local.conf file in the Build Directory."
@@ -7012,7 +7094,7 @@ P="vortex-core-1.0.5"
 #     "                 perform_packagecopy                 ${PACKAGE_PREPROCESS_FUNCS}                 split_and_strip_files                 fixup_perms                 "
 PACKAGEBUILDPKGD="                 perform_packagecopy                                  split_and_strip_files                 fixup_perms                 "
 #
-# $PACKAGECONFIG [9 operations]
+# $PACKAGECONFIG [17 operations]
 #   _append[pn-qemu-native] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:242
 #     " sdl"
 #   _append[pn-nativesdk-qemu] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:243
@@ -7028,6 +7110,22 @@ PACKAGEBUILDPKGD="                 perform_packagecopy                          
 #   _append[pn-qtbase] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:311
 #     " accessibility"
 #   _append[pn-qtquickcontrols] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:312
+#     " accessibility"
+#   _append[pn-qtbase] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:334
+#     " accessibility"
+#   _append[pn-qtquickcontrols] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:335
+#     " accessibility"
+#   _append[pn-qtbase] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:357
+#     " accessibility"
+#   _append[pn-qtquickcontrols] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:358
+#     " accessibility"
+#   _append[pn-qtbase] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:381
+#     " accessibility"
+#   _append[pn-qtquickcontrols] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:382
+#     " accessibility"
+#   _append[pn-qtbase] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:404
+#     " accessibility"
+#   _append[pn-qtquickcontrols] /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:405
 #     " accessibility"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:313
 #     [doc] "This variable provides a means of enabling or disabling features of a recipe on a per-recipe basis."
@@ -9790,7 +9888,7 @@ SAVANNAH_NONGNU_MIRROR="http://download.savannah.nongnu.org/releases"
 # $SDCARD_ROOTFS
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/meta-freescale/conf/machine/include/imx-base.inc:282
 #     "${IMGDEPLOYDIR}/${IMAGE_NAME}.rootfs.ext4"
-SDCARD_ROOTFS="\${IMGDEPLOYDIR}/vortex-core-var-som-mx6-20240412211908.rootfs.ext4"
+SDCARD_ROOTFS="\${IMGDEPLOYDIR}/vortex-core-var-som-mx6-20240412220317.rootfs.ext4"
 #
 # $SDKGCCVERSION
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/distro/include/tcmode-default.inc:26
@@ -10752,12 +10850,20 @@ SSTATETASKS="do_package do_package_qa do_package_write_rpm do_packagedata do_pop
 #     "     ${BUILD_ARCH}     ${BUILD_ARCH}_${SDK_ARCH}_${SDK_OS}     ${BUILD_ARCH}_${TARGET_ARCH}     ${SDK_ARCH}_${SDK_OS}     ${SDK_ARCH}_${PACKAGE_ARCH}     allarch     ${PACKAGE_ARCH}     ${PACKAGE_EXTRA_ARCHS}     ${MACHINE_ARCH}"
 SSTATE_ARCHS="     x86_64     x86_64_x86_64_linux     x86_64_arm     x86_64_linux     x86_64_armv7at2hf-neon     allarch     armv7at2hf-neon     armv5hf-vfp armv5thf-vfp armv5ehf-vfp armv5tehf-vfp armv6hf-vfp armv6thf-vfp armv7ahf-vfp armv7at2hf-vfp armv7ahf-neon armv7at2hf-neon armv7at2hf-neon-mx6qdl armv7ahf-neon-mx6qdl     var_som_mx6"
 #
-# $SSTATE_DIR [5 operations]
+# $SSTATE_DIR [9 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:254
 #     "/home/vortex/build/Vortex_SourceCode/yocto/sstate-cache"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:277
 #     "/home/vortex/build/Vortex_SourceCode/yocto/sstate-cache"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:300
+#     "/home/vortex/build/Vortex_SourceCode/yocto/sstate-cache"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:323
+#     "/home/vortex/build/Vortex_SourceCode/yocto/sstate-cache"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:346
+#     "/home/vortex/build/Vortex_SourceCode/yocto/sstate-cache"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:370
+#     "/home/vortex/build/Vortex_SourceCode/yocto/sstate-cache"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:393
 #     "/home/vortex/build/Vortex_SourceCode/yocto/sstate-cache"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:389
 #     [doc] "The directory for the shared state cache."
@@ -11462,8 +11568,8 @@ THUMB_EXTRA_SOCARCH="armv7at2hf-neon-mx6qdl"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/documentation.conf:427
 #     [doc] "The time the build was started using HMS format."
 # pre-expansion value:
-#   "211908"
-TIME="211908"
+#   "220317"
+TIME="220317"
 #
 # $TMPDIR [4 operations]
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/bitbake.conf:347
@@ -12703,23 +12809,39 @@ VIRTUAL-RUNTIME_base-utils-syslog="busybox-syslog"
 #     "util-linux-getopt"
 VIRTUAL-RUNTIME_getopt="util-linux-getopt"
 #
-# $VIRTUAL-RUNTIME_init_manager [3 operations]
+# $VIRTUAL-RUNTIME_init_manager [7 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:261
 #     "systemd"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:284
 #     "systemd"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:307
 #     "systemd"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:330
+#     "systemd"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:353
+#     "systemd"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:377
+#     "systemd"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:400
+#     "systemd"
 # pre-expansion value:
 #   "systemd"
 VIRTUAL-RUNTIME_init_manager="systemd"
 #
-# $VIRTUAL-RUNTIME_initscripts [3 operations]
+# $VIRTUAL-RUNTIME_initscripts [7 operations]
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:263
 #     "systemd-compat-units"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:286
 #     "systemd-compat-units"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:309
+#     "systemd-compat-units"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:332
+#     "systemd-compat-units"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:355
+#     "systemd-compat-units"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:379
+#     "systemd-compat-units"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:402
 #     "systemd-compat-units"
 # pre-expansion value:
 #   "systemd-compat-units"
@@ -12730,7 +12852,7 @@ VIRTUAL-RUNTIME_initscripts="systemd-compat-units"
 #     "update-alternatives-opkg"
 VIRTUAL-RUNTIME_update-alternatives="update-alternatives-opkg"
 #
-# $VOLATILE_LOG_DIR [4 operations]
+# $VOLATILE_LOG_DIR [8 operations]
 #   set? /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/bitbake.conf:90
 #     "yes"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:272
@@ -12738,6 +12860,14 @@ VIRTUAL-RUNTIME_update-alternatives="update-alternatives-opkg"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:295
 #     "no"
 #   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:318
+#     "no"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:341
+#     "no"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:364
+#     "no"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:388
+#     "no"
+#   set /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/conf/local.conf:411
 #     "no"
 # pre-expansion value:
 #   "no"
@@ -12881,8 +13011,8 @@ XSERVER_DRIVER_vf="xf86-video-modesetting"
 #
 # $_task_deps
 #   set build.py:821 [add_tasks]
-#     "{'umask': {'do_configure': '022', 'do_package_write_rpm': '022', 'do_unpack': '022', 'do_package': '022', 'do_patch': '022', 'do_compile': '022', 'do_populate_sysroot': '022', 'do_install': '022'}, 'parents': {'do_prepare_recipe_sysroot': ['do_fetch'], 'do_generate_toolchain_file': ['do_patch'], 'do_package_qa_setscene': [], 'do_build': ['do_populate_lic', 'do_packagedata', 'do_package_qa', 'do_populate_sysroot'], 'do_checkuri': [], 'do_listtasks': [], 'do_packagedata_setscene': [], 'do_cleanall': ['do_cleansstate'], 'do_package_setscene': [], 'do_cleansstate': ['do_clean'], 'do_package_qa': ['do_packagedata', 'do_package'], 'do_patch': ['do_unpack'], 'do_install': ['do_compile'], 'do_packagedata': ['do_package'], 'do_fetch': [], 'do_populate_lic': ['do_patch'], 'do_clean': [], 'do_populate_sysroot': ['do_install'], 'do_package_write_rpm': ['do_packagedata', 'do_package'], 'do_package_write_rpm_setscene': [], 'do_configure': ['do_generate_toolchain_file', 'do_prepare_recipe_sysroot', 'do_patch'], 'do_populate_lic_setscene': [], 'do_package': ['do_install'], 'do_unpack': ['do_fetch'], 'do_devpyshell': ['do_patch'], 'do_compile': ['do_configure'], 'do_populate_sysroot_setscene': [], 'do_devshell': ['do_patch', 'do_prepare_recipe_sysroot']}, 'mcdepends': {}, 'tasks': ['do_patch', 'do_populate_sysroot', 'do_populate_sysroot_setscene', 'do_prepare_recipe_sysroot', 'do_listtasks', 'do_clean', 'do_checkuri', 'do_fetch', 'do_unpack', 'do_configure', 'do_compile', 'do_install', 'do_build', 'do_cleansstate', 'do_cleanall', 'do_package_qa', 'do_package_qa_setscene', 'do_package', 'do_package_setscene', 'do_packagedata', 'do_packagedata_setscene', 'do_package_write_rpm_setscene', 'do_package_write_rpm', 'do_devshell', 'do_devpyshell', 'do_populate_lic', 'do_populate_lic_setscene', 'do_generate_toolchain_file'], 'fakeroot': {'do_package_qa': '1', 'do_package': '1', 'do_package_write_rpm': '1', 'do_install': '1', 'do_package_setscene': '1'}, 'deptask': {'do_prepare_recipe_sysroot': 'do_populate_sysroot', 'do_package': ' do_packagedata'}, 'rdepends': {}, 'recrdeptask': {'do_build': ' do_deploy do_package_write_rpm'}, 'recideptask': {}, 'depends': {'do_devshell': ' virtual/fakeroot-native:do_populate_sysroot', 'do_package_setscene': ' virtual/fakeroot-native:do_populate_sysroot', 'do_package_qa': ' virtual/arm-fslc-linux-gnueabi-binutils:do_populate_sysroot virtual/fakeroot-native:do_populate_sysroot', 'do_package': ' virtual/fakeroot-native:do_populate_sysroot rpm-native:do_populate_sysroot dwarfsrcfiles-native:do_populate_sysroot file-native:do_populate_sysroot', 'do_patch': 'quilt-native:do_populate_sysroot', 'do_install': ' virtual/fakeroot-native:do_populate_sysroot', 'do_populate_sysroot': ' virtual/arm-fslc-linux-gnueabi-binutils:do_populate_sysroot', 'do_package_write_rpm': '  rpm-native:do_populate_sysroot virtual/fakeroot-native:do_populate_sysroot'}, 'noexec': {'do_build': '1'}, 'rdeptask': {'do_package_qa': 'do_packagedata', 'do_package_write_rpm': 'do_packagedata'}, 'nostamp': {'do_devpyshell': '1', 'do_cleanall': '1', 'do_devshell': '1', 'do_cleansstate': '1', 'do_listtasks': '1', 'do_checkuri': '1', 'do_clean': '1'}}"
-_task_deps="{'umask': {'do_configure': '022', 'do_package_write_rpm': '022', 'do_unpack': '022', 'do_package': '022', 'do_patch': '022', 'do_compile': '022', 'do_populate_sysroot': '022', 'do_install': '022'}, 'rdeptask': {'do_package_qa': 'do_packagedata', 'do_package_write_rpm': 'do_packagedata'}, 'parents': {'do_prepare_recipe_sysroot': ['do_fetch'], 'do_generate_toolchain_file': ['do_patch'], 'do_package_qa_setscene': [], 'do_build': ['do_populate_lic', 'do_packagedata', 'do_package_qa', 'do_populate_sysroot'], 'do_checkuri': [], 'do_listtasks': [], 'do_packagedata_setscene': [], 'do_cleanall': ['do_cleansstate'], 'do_package_setscene': [], 'do_cleansstate': ['do_clean'], 'do_package_qa': ['do_packagedata', 'do_package'], 'do_patch': ['do_unpack'], 'do_install': ['do_compile'], 'do_packagedata': ['do_package'], 'do_fetch': [], 'do_populate_lic': ['do_patch'], 'do_clean': [], 'do_populate_sysroot': ['do_install'], 'do_package_write_rpm': ['do_packagedata', 'do_package'], 'do_package_write_rpm_setscene': [], 'do_configure': ['do_generate_toolchain_file', 'do_prepare_recipe_sysroot', 'do_patch'], 'do_populate_lic_setscene': [], 'do_package': ['do_install'], 'do_unpack': ['do_fetch'], 'do_devpyshell': ['do_patch'], 'do_compile': ['do_configure'], 'do_populate_sysroot_setscene': [], 'do_devshell': ['do_patch', 'do_prepare_recipe_sysroot']}, 'mcdepends': {}, 'tasks': ['do_patch', 'do_populate_sysroot', 'do_populate_sysroot_setscene', 'do_prepare_recipe_sysroot', 'do_listtasks', 'do_clean', 'do_checkuri', 'do_fetch', 'do_unpack', 'do_configure', 'do_compile', 'do_install', 'do_build', 'do_cleansstate', 'do_cleanall', 'do_package_qa', 'do_package_qa_setscene', 'do_package', 'do_package_setscene', 'do_packagedata', 'do_packagedata_setscene', 'do_package_write_rpm_setscene', 'do_package_write_rpm', 'do_devshell', 'do_devpyshell', 'do_populate_lic', 'do_populate_lic_setscene', 'do_generate_toolchain_file'], 'fakeroot': {'do_package_qa': '1', 'do_package': '1', 'do_package_write_rpm': '1', 'do_install': '1', 'do_package_setscene': '1'}, 'rdepends': {}, 'recrdeptask': {'do_build': ' do_deploy do_package_write_rpm'}, 'recideptask': {}, 'depends': {'do_devshell': ' virtual/fakeroot-native:do_populate_sysroot', 'do_package_setscene': ' virtual/fakeroot-native:do_populate_sysroot', 'do_package_qa': ' virtual/arm-fslc-linux-gnueabi-binutils:do_populate_sysroot virtual/fakeroot-native:do_populate_sysroot', 'do_package': ' virtual/fakeroot-native:do_populate_sysroot rpm-native:do_populate_sysroot dwarfsrcfiles-native:do_populate_sysroot file-native:do_populate_sysroot', 'do_patch': 'quilt-native:do_populate_sysroot', 'do_install': ' virtual/fakeroot-native:do_populate_sysroot', 'do_populate_sysroot': ' virtual/arm-fslc-linux-gnueabi-binutils:do_populate_sysroot', 'do_package_write_rpm': '  rpm-native:do_populate_sysroot virtual/fakeroot-native:do_populate_sysroot'}, 'noexec': {'do_build': '1'}, 'deptask': {'do_prepare_recipe_sysroot': 'do_populate_sysroot', 'do_package': ' do_packagedata'}, 'nostamp': {'do_devpyshell': '1', 'do_cleanall': '1', 'do_devshell': '1', 'do_cleansstate': '1', 'do_listtasks': '1', 'do_checkuri': '1', 'do_clean': '1'}}"
+#     "{'rdepends': {}, 'nostamp': {'do_clean': '1', 'do_cleansstate': '1', 'do_cleanall': '1', 'do_checkuri': '1', 'do_devshell': '1', 'do_devpyshell': '1', 'do_listtasks': '1'}, 'recideptask': {}, 'rdeptask': {'do_package_qa': 'do_packagedata', 'do_package_write_rpm': 'do_packagedata'}, 'noexec': {'do_build': '1'}, 'recrdeptask': {'do_build': ' do_deploy do_package_write_rpm'}, 'fakeroot': {'do_package_setscene': '1', 'do_package': '1', 'do_package_qa': '1', 'do_install': '1', 'do_package_write_rpm': '1'}, 'mcdepends': {}, 'depends': {'do_package_setscene': ' virtual/fakeroot-native:do_populate_sysroot', 'do_package': ' virtual/fakeroot-native:do_populate_sysroot rpm-native:do_populate_sysroot dwarfsrcfiles-native:do_populate_sysroot file-native:do_populate_sysroot', 'do_package_qa': ' virtual/arm-fslc-linux-gnueabi-binutils:do_populate_sysroot virtual/fakeroot-native:do_populate_sysroot', 'do_install': ' virtual/fakeroot-native:do_populate_sysroot', 'do_populate_sysroot': ' virtual/arm-fslc-linux-gnueabi-binutils:do_populate_sysroot', 'do_package_write_rpm': '  rpm-native:do_populate_sysroot virtual/fakeroot-native:do_populate_sysroot', 'do_devshell': ' virtual/fakeroot-native:do_populate_sysroot', 'do_patch': 'quilt-native:do_populate_sysroot'}, 'tasks': ['do_patch', 'do_populate_sysroot', 'do_populate_sysroot_setscene', 'do_prepare_recipe_sysroot', 'do_listtasks', 'do_clean', 'do_checkuri', 'do_fetch', 'do_unpack', 'do_configure', 'do_compile', 'do_install', 'do_build', 'do_cleansstate', 'do_cleanall', 'do_package_qa', 'do_package_qa_setscene', 'do_package', 'do_package_setscene', 'do_packagedata', 'do_packagedata_setscene', 'do_package_write_rpm_setscene', 'do_package_write_rpm', 'do_devshell', 'do_devpyshell', 'do_populate_lic', 'do_populate_lic_setscene', 'do_generate_toolchain_file'], 'umask': {'do_package': '022', 'do_install': '022', 'do_configure': '022', 'do_populate_sysroot': '022', 'do_package_write_rpm': '022', 'do_unpack': '022', 'do_patch': '022', 'do_compile': '022'}, 'deptask': {'do_package': ' do_packagedata', 'do_prepare_recipe_sysroot': 'do_populate_sysroot'}, 'parents': {'do_populate_sysroot_setscene': [], 'do_clean': [], 'do_prepare_recipe_sysroot': ['do_fetch'], 'do_install': ['do_compile'], 'do_populate_lic_setscene': [], 'do_package_write_rpm_setscene': [], 'do_package_qa_setscene': [], 'do_package_write_rpm': ['do_packagedata', 'do_package'], 'do_devshell': ['do_patch', 'do_prepare_recipe_sysroot'], 'do_package_setscene': [], 'do_cleansstate': ['do_clean'], 'do_populate_lic': ['do_patch'], 'do_package_qa': ['do_packagedata', 'do_package'], 'do_configure': ['do_generate_toolchain_file', 'do_prepare_recipe_sysroot', 'do_patch'], 'do_populate_sysroot': ['do_install'], 'do_generate_toolchain_file': ['do_patch'], 'do_checkuri': [], 'do_patch': ['do_unpack'], 'do_fetch': [], 'do_listtasks': [], 'do_package': ['do_install'], 'do_packagedata': ['do_package'], 'do_cleanall': ['do_cleansstate'], 'do_unpack': ['do_fetch'], 'do_build': ['do_populate_lic', 'do_packagedata', 'do_package_qa', 'do_populate_sysroot'], 'do_devpyshell': ['do_patch'], 'do_packagedata_setscene': [], 'do_compile': ['do_configure']}}"
+_task_deps="{'rdepends': {}, 'nostamp': {'do_clean': '1', 'do_cleansstate': '1', 'do_cleanall': '1', 'do_checkuri': '1', 'do_devshell': '1', 'do_devpyshell': '1', 'do_listtasks': '1'}, 'recideptask': {}, 'recrdeptask': {'do_build': ' do_deploy do_package_write_rpm'}, 'fakeroot': {'do_package_setscene': '1', 'do_package': '1', 'do_package_qa': '1', 'do_install': '1', 'do_package_write_rpm': '1'}, 'rdeptask': {'do_package_qa': 'do_packagedata', 'do_package_write_rpm': 'do_packagedata'}, 'mcdepends': {}, 'depends': {'do_package_setscene': ' virtual/fakeroot-native:do_populate_sysroot', 'do_package': ' virtual/fakeroot-native:do_populate_sysroot rpm-native:do_populate_sysroot dwarfsrcfiles-native:do_populate_sysroot file-native:do_populate_sysroot', 'do_package_qa': ' virtual/arm-fslc-linux-gnueabi-binutils:do_populate_sysroot virtual/fakeroot-native:do_populate_sysroot', 'do_install': ' virtual/fakeroot-native:do_populate_sysroot', 'do_populate_sysroot': ' virtual/arm-fslc-linux-gnueabi-binutils:do_populate_sysroot', 'do_package_write_rpm': '  rpm-native:do_populate_sysroot virtual/fakeroot-native:do_populate_sysroot', 'do_devshell': ' virtual/fakeroot-native:do_populate_sysroot', 'do_patch': 'quilt-native:do_populate_sysroot'}, 'deptask': {'do_package': ' do_packagedata', 'do_prepare_recipe_sysroot': 'do_populate_sysroot'}, 'tasks': ['do_patch', 'do_populate_sysroot', 'do_populate_sysroot_setscene', 'do_prepare_recipe_sysroot', 'do_listtasks', 'do_clean', 'do_checkuri', 'do_fetch', 'do_unpack', 'do_configure', 'do_compile', 'do_install', 'do_build', 'do_cleansstate', 'do_cleanall', 'do_package_qa', 'do_package_qa_setscene', 'do_package', 'do_package_setscene', 'do_packagedata', 'do_packagedata_setscene', 'do_package_write_rpm_setscene', 'do_package_write_rpm', 'do_devshell', 'do_devpyshell', 'do_populate_lic', 'do_populate_lic_setscene', 'do_generate_toolchain_file'], 'umask': {'do_package': '022', 'do_install': '022', 'do_configure': '022', 'do_populate_sysroot': '022', 'do_package_write_rpm': '022', 'do_unpack': '022', 'do_patch': '022', 'do_compile': '022'}, 'noexec': {'do_build': '1'}, 'parents': {'do_populate_sysroot_setscene': [], 'do_clean': [], 'do_prepare_recipe_sysroot': ['do_fetch'], 'do_install': ['do_compile'], 'do_populate_lic_setscene': [], 'do_package_write_rpm_setscene': [], 'do_package_qa_setscene': [], 'do_package_write_rpm': ['do_packagedata', 'do_package'], 'do_devshell': ['do_patch', 'do_prepare_recipe_sysroot'], 'do_package_setscene': [], 'do_cleansstate': ['do_clean'], 'do_populate_lic': ['do_patch'], 'do_package_qa': ['do_packagedata', 'do_package'], 'do_configure': ['do_generate_toolchain_file', 'do_prepare_recipe_sysroot', 'do_patch'], 'do_populate_sysroot': ['do_install'], 'do_generate_toolchain_file': ['do_patch'], 'do_checkuri': [], 'do_patch': ['do_unpack'], 'do_fetch': [], 'do_listtasks': [], 'do_package': ['do_install'], 'do_packagedata': ['do_package'], 'do_cleanall': ['do_cleansstate'], 'do_unpack': ['do_fetch'], 'do_build': ['do_populate_lic', 'do_packagedata', 'do_package_qa', 'do_populate_sysroot'], 'do_devpyshell': ['do_patch'], 'do_packagedata_setscene': [], 'do_compile': ['do_configure']}}"
 #
 # $base_bindir [4 operations]
 #   exported /home/vortex/build/Vortex_SourceCode/yocto/poky/meta/conf/bitbake.conf:23
@@ -13523,24 +13653,24 @@ bbdebug() {
 	fi
 
 	# All debug output is printed to the logs
-	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124 ] ; then
-		printf "%b\0" "bbdebug $DBGLVL $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124
+	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168 ] ; then
+		printf "%b\0" "bbdebug $DBGLVL $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168
 	else
 		echo "DEBUG: $*"
 	fi
 }
 
 bberror() {
-	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124 ] ; then
-		printf "%b\0" "bberror $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124
+	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168 ] ; then
+		printf "%b\0" "bberror $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168
 	else
 		echo "ERROR: $*"
 	fi
 }
 
 bbfatal() {
-	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124 ] ; then
-		printf "%b\0" "bbfatal $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124
+	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168 ] ; then
+		printf "%b\0" "bbfatal $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168
 	else
 		echo "ERROR: $*"
 	fi
@@ -13548,8 +13678,8 @@ bbfatal() {
 }
 
 bbfatal_log() {
-	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124 ] ; then
-		printf "%b\0" "bbfatal_log $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124
+	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168 ] ; then
+		printf "%b\0" "bbfatal_log $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168
 	else
 		echo "ERROR: $*"
 	fi
@@ -13557,24 +13687,24 @@ bbfatal_log() {
 }
 
 bbnote() {
-	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124 ] ; then
-		printf "%b\0" "bbnote $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124
+	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168 ] ; then
+		printf "%b\0" "bbnote $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168
 	else
 		echo "NOTE: $*"
 	fi
 }
 
 bbplain() {
-	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124 ] ; then
-		printf "%b\0" "bbplain $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124
+	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168 ] ; then
+		printf "%b\0" "bbplain $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168
 	else
 		echo "$*"
 	fi
 }
 
 bbwarn() {
-	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124 ] ; then
-		printf "%b\0" "bbwarn $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.19124
+	if [ -p /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168 ] ; then
+		printf "%b\0" "bbwarn $*" > /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/temp/fifo.22168
 	else
 		echo "WARNING: $*"
 	fi

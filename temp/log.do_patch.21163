@@ -1,0 +1,11 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['quilt-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for VortexCore in paths:
+    /home/vortex/build/Vortex_SourceCode/vortex/
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

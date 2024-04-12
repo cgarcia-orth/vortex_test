@@ -1,0 +1,10 @@
+DEBUG: Executing python function clean_recipe_sysroot
+DEBUG: Python function clean_recipe_sysroot finished
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Searching for VortexCore in paths:
+    /home/vortex/build/Vortex_SourceCode/vortex/
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished
+DEBUG: Executing python function write_srcrev
+DEBUG: Python function write_srcrev finished
