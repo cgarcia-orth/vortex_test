@@ -1,0 +1,10 @@
+[Unit]
+Description="Valiate updates and roll back on check failure."
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/check-update.sh
+
+[Install]
+WantedBy=multi-user.target
+

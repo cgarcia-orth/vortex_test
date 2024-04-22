@@ -1,0 +1,30 @@
+diff --git a/artnet/artnet.c b/artnet/artnet.c
+index 6efa91f..475e16e 100644
+--- a/artnet/artnet.c
++++ b/artnet/artnet.c
+@@ -765,8 +765,10 @@ int artnet_send_address(artnet_node vn,
+     p.data.addr.ver = ARTNET_VERSION;
+     p.data.addr.filler1 = 0;
+     p.data.addr.filler2 = 0;
+-    strncpy((char*) &p.data.addr.shortname, shortName, ARTNET_SHORT_NAME_LENGTH);
+-    strncpy((char*) &p.data.addr.longname, longName, ARTNET_LONG_NAME_LENGTH);
++    strncpy((char*) &p.data.addr.shortname, shortName, ARTNET_SHORT_NAME_LENGTH - 1);
++    p.data.addr.shortname[ARTNET_SHORT_NAME_LENGTH - 1] = '\0';
++    strncpy((char*) &p.data.addr.longname, longName, ARTNET_LONG_NAME_LENGTH - 1);
++    p.data.addr.longname[ARTNET_LONG_NAME_LENGTH - 1] = '\0';
+ 
+     memcpy(&p.data.addr.swin, inAddr, ARTNET_MAX_PORTS);
+     memcpy(&p.data.addr.swout, outAddr, ARTNET_MAX_PORTS);
+diff --git a/artnet/transmit.c b/artnet/transmit.c
+index ce19b11..a4c9cd8 100644
+--- a/artnet/transmit.c
++++ b/artnet/transmit.c
+@@ -163,7 +163,7 @@ int artnet_tx_tod_data(node n, int id) {
+   bloc = 0;
+ 
+   while (remaining > 0) {
+-    memset(&tod.data.toddata.tod,0x00, ARTNET_MAX_UID_COUNT);
++    memset(&tod.data.toddata.tod, 0x00, ARTNET_MAX_UID_COUNT * ARTNET_RDM_UID_WIDTH);
+     lim = min(ARTNET_MAX_UID_COUNT, remaining);
+     tod.data.toddata.blockCount = bloc++;
+     tod.data.toddata.uidCount = lim;

@@ -1,0 +1,2 @@
+PACKAGECONFIG += "nocursor"
+PACKAGECONFIG += "blank"

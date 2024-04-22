@@ -1,0 +1,10 @@
+[Unit]
+Description="Initialisation script for CAN and IOs."
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/vortex-init.sh
+
+[Install]
+WantedBy=multi-user.target
+

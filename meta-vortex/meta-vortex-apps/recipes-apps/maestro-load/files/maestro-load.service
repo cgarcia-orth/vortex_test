@@ -1,0 +1,11 @@
+[Unit]
+Description="Maestro image load application"
+After=vortex-init.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/install_yocto.sh -b mx6cb -t res -r emmc
+
+[Install]
+WantedBy=multi-user.target
+

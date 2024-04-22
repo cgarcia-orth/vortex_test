@@ -1,0 +1,28 @@
+{
+  "name": "maestrolink_communication_manager",
+  "version": "3.0.6",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "maestrolink": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.org/vortex_maestro/maestrolink-comm-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/vortex_maestro/maestrolink-comm-manager",
+  "dependencies": {
+    "adm-zip": "^0.4.14",
+    "aws-iot-device-sdk": "^2.2.3",
+    "axios": "^0.19.2",
+    "child-process-promise": "^2.2.1",
+    "config": "^3.2.5",
+    "download": "^7.1.0",
+    "fs-extra": "^8.1.0",
+    "node-machine-id": "^1.1.12",
+    "tmp": "0.1.0",
+    "sd-notify": "^2.8.0"
+  }
+}

@@ -1,0 +1,344 @@
+diff --git a/arch/arm/boot/dts/imx6dl-var-som-solo-res.dts b/arch/arm/boot/dts/imx6dl-var-som-solo-res.dts
+index d8ac7c7..6dc0dc0 100644
+--- a/arch/arm/boot/dts/imx6dl-var-som-solo-res.dts
++++ b/arch/arm/boot/dts/imx6dl-var-som-solo-res.dts
+@@ -8,4 +8,3 @@
+ 
+ #include "imx6dl-var-som-solo.dtsi"
+ #include "imx6qdl-var-mx6cb-rdisplay.dtsi"
+-#include "imx6qdl-var-mx6cb-buttons.dtsi"
+diff --git a/arch/arm/boot/dts/imx6qdl-var-mx6cb-rdisplay.dtsi b/arch/arm/boot/dts/imx6qdl-var-mx6cb-rdisplay.dtsi
+index 49cf228..311e249 100644
+--- a/arch/arm/boot/dts/imx6qdl-var-mx6cb-rdisplay.dtsi
++++ b/arch/arm/boot/dts/imx6qdl-var-mx6cb-rdisplay.dtsi
+@@ -36,48 +36,28 @@
+ 
+ 	lvds-channel@0 {
+ 		fsl,data-mapping = "spwg";
+-		fsl,data-width = <24>;
++		fsl,data-width = <18>;
+ 		status = "okay";
+ 		primary;
+ 
+ 		display-timings {
+ 			native-mode = <&timing0r>;
+ 			timing0r: hsd100pxn1 {
+-				clock-frequency = <30000000>;
++				clock-frequency = <40000000>;
+ 				hactive = <800>;
+-				vactive = <480>;
+-				hback-porch = <28>;
+-				hfront-porch = <17>;
+-				vback-porch = <13>;
+-				vfront-porch = <20>;
++				vactive = <600>;
++				hback-porch = <46>;
++				hfront-porch = <210>;
++				vback-porch = <23>;
++				vfront-porch = <12>;
+ 				hsync-len = <20>;
+ 				vsync-len = <13>;
+ 			};
+ 		};
+ 	};
+ 
+-	lvds-channel@1 {
+-		fsl,data-mapping = "spwg";
+-		fsl,data-width = <24>;
+-		status = "okay";
+-
+-		display-timings {
+-			native-mode = <&timing1>;
+-			timing1: hsd100pxn1 {
+-				clock-frequency = <38251000>;
+-				hactive = <800>;
+-				vactive = <600>;
+-				hback-porch = <112>;
+-				hfront-porch = <32>;
+-				vback-porch = <3>;
+-				vfront-porch = <17>;
+-				hsync-len = <80>;
+-				vsync-len = <4>;
+-			};
+-		};
+-	};
+ };
+ 
+ &mxcfb1 {
+-	interface_pix_fmt = "RGB24";
++	interface_pix_fmt = "RGB666";
+ };
+diff --git a/arch/arm/boot/dts/imx6qdl-var-som.dtsi b/arch/arm/boot/dts/imx6qdl-var-som.dtsi
+index 05999f9..96cdd02 100644
+--- a/arch/arm/boot/dts/imx6qdl-var-som.dtsi
++++ b/arch/arm/boot/dts/imx6qdl-var-som.dtsi
+@@ -445,6 +445,28 @@
+ 				MX6QDL_PAD_GPIO_3__CCM_CLKO2		0x130b0
+ 				/* Resistive touch irq */
+ 				MX6QDL_PAD_DISP0_DAT4__GPIO4_IO25	0x178b0
++                                /* Vortex Maestro: DMX LED 1, LED 2, UART4 dir, UART5 dir */
++                                MX6QDL_PAD_DISP0_DAT23__GPIO5_IO17      0x00008
++                                MX6QDL_PAD_DISP0_DAT18__GPIO5_IO12      0x00008
++                                MX6QDL_PAD_DISP0_DAT20__GPIO5_IO14      0x00008
++                                MX6QDL_PAD_DISP0_DAT21__GPIO5_IO15      0x00008
++                                /* LCD Data LED */
++                                MX6QDL_PAD_DISP0_DAT19__GPIO5_IO13      0x00008
++                                /* CAN LED */
++                                MX6QDL_PAD_DISP0_DAT22__GPIO5_IO16      0x00008
++                                /* MAIN Board MCU: Early Power Fail, Reset */
++                                MX6QDL_PAD_SD4_DAT3__GPIO2_IO11         0x00008
++                                MX6QDL_PAD_GPIO_2__GPIO1_IO02           0x00008
++                                /* System working LED */
++                                MX6QDL_PAD_EIM_D21__GPIO3_IO21          0x00008
++                                /* 3G: DTR, W Disable, PERST */
++                                MX6QDL_PAD_CSI0_DAT15__GPIO6_IO01       0x00008
++                                MX6QDL_PAD_CSI0_VSYNC__GPIO5_IO21       0x00008
++                                MX6QDL_PAD_CSI0_DATA_EN__GPIO5_IO20     0x00008
++                                /* Spare: LED1, LED2, LED3 */
++                                MX6QDL_PAD_CSI0_DAT14__GPIO6_IO00       0x00008
++                                MX6QDL_PAD_CSI0_DAT16__GPIO6_IO02       0x00008
++                                MX6QDL_PAD_CSI0_PIXCLK__GPIO5_IO18      0x00008
+ 			>;
+ 		};
+ 
+@@ -519,18 +541,9 @@
+ 
+ 		pinctrl_ipu1_2: ipu1grp-2 { /* parallel camera */
+ 			fsl,pins = <
+-				MX6QDL_PAD_CSI0_DAT12__IPU1_CSI0_DATA12		0x80000000
+-				MX6QDL_PAD_CSI0_DAT13__IPU1_CSI0_DATA13		0x80000000
+-				MX6QDL_PAD_CSI0_DAT14__IPU1_CSI0_DATA14		0x80000000
+-				MX6QDL_PAD_CSI0_DAT15__IPU1_CSI0_DATA15		0x80000000
+-				MX6QDL_PAD_CSI0_DAT16__IPU1_CSI0_DATA16		0x80000000
+-				MX6QDL_PAD_CSI0_DAT17__IPU1_CSI0_DATA17		0x80000000
+ 				MX6QDL_PAD_CSI0_DAT18__IPU1_CSI0_DATA18		0x80000000
+ 				MX6QDL_PAD_CSI0_DAT19__IPU1_CSI0_DATA19		0x80000000
+-				MX6QDL_PAD_CSI0_DATA_EN__IPU1_CSI0_DATA_EN	0x80000000
+-				MX6QDL_PAD_CSI0_PIXCLK__IPU1_CSI0_PIXCLK	0x80000000
+ 				MX6QDL_PAD_CSI0_MCLK__IPU1_CSI0_HSYNC		0x80000000
+-				MX6QDL_PAD_CSI0_VSYNC__IPU1_CSI0_VSYNC		0x80000000
+ 			>;
+ 		};
+ 
+@@ -568,6 +581,22 @@
+ 			>;
+ 		};
+ 
++                /* DMX Uart 4 */
++		pinctrl_uart4: pinctrl_uart4 {	/* RX/TX */
++			fsl,pins = <
++				MX6QDL_PAD_CSI0_DAT13__UART4_RX_DATA	0x1b0b1
++				MX6QDL_PAD_CSI0_DAT12__UART4_TX_DATA	0x1b0b1
++			>;
++		};
++
++                /* DMX Uart 5 */
++		pinctrl_uart5: pinctrl_uart5 {	/* RX/TX */
++			fsl,pins = <
++				MX6QDL_PAD_KEY_ROW1__UART5_RX_DATA	0x1b0b1
++				MX6QDL_PAD_KEY_COL1__UART5_TX_DATA	0x1b0b1
++			>;
++		};
++
+ 		pinctrl_usbotg_var: usbotggrp-3 {
+ 			fsl,pins = <
+ 				MX6QDL_PAD_GPIO_4__GPIO1_IO04 		0x17059
+@@ -736,6 +765,22 @@
+ 	status = "okay";
+ };
+ 
++/* DMX UART 4 */
++&uart4 {
++	pinctrl-names = "default";
++	pinctrl-0 = <&pinctrl_uart4>;
++	uart-has-rtscts;
++	status = "okay";
++};
++
++/* DMX UART 5 */
++&uart5 {
++	pinctrl-names = "default";
++	pinctrl-0 = <&pinctrl_uart5>;
++	uart-has-rtscts;
++	status = "okay";
++};
++
+ &can1 {
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&pinctrl_flexcan1_3>;
+diff --git a/arch/arm/configs/imx_v7_var_defconfig b/arch/arm/configs/imx_v7_var_defconfig
+index e4d30ce..688eba1 100644
+--- a/arch/arm/configs/imx_v7_var_defconfig
++++ b/arch/arm/configs/imx_v7_var_defconfig
+@@ -260,6 +260,7 @@ CONFIG_USB_NET_CDC_EEM=m
+ CONFIG_USB_NET_HUAWEI_CDC_NCM=m
+ CONFIG_USB_NET_CDC_MBIM=m
+ CONFIG_USB_NET_DM9601=m
++#CONFIG_USB_NET_QMI_WWAN=n
+ CONFIG_USB_NET_SR9700=m
+ CONFIG_USB_NET_SR9800=m
+ CONFIG_USB_NET_SMSC75XX=m
+@@ -268,6 +269,7 @@ CONFIG_USB_NET_GL620A=m
+ CONFIG_USB_NET_PLUSB=m
+ CONFIG_USB_NET_MCS7830=m
+ CONFIG_USB_NET_RNDIS_HOST=m
++CONFIG_USB_IPHETH=y
+ # CONFIG_WLAN_VENDOR_ADMTEK is not set
+ # CONFIG_WLAN_VENDOR_ATH is not set
+ # CONFIG_WLAN_VENDOR_ATMEL is not set
+@@ -359,6 +361,7 @@ CONFIG_CPU_THERMAL=y
+ CONFIG_IMX_THERMAL=y
+ CONFIG_DEVICE_THERMAL=y
+ CONFIG_WATCHDOG=y
++CONFIG_WATCHDOG_NOWAYOUT=y
+ CONFIG_IMX2_WDT=y
+ CONFIG_MFD_DA9052_I2C=y
+ CONFIG_MFD_MC13XXX_SPI=y
+@@ -477,7 +480,7 @@ CONFIG_LCD_PLATFORM=y
+ CONFIG_BACKLIGHT_PWM=y
+ CONFIG_BACKLIGHT_GPIO=y
+ CONFIG_FRAMEBUFFER_CONSOLE=y
+-CONFIG_LOGO=y
++# CONFIG_LOGO=y
+ # CONFIG_LOGO_LINUX_MONO is not set
+ # CONFIG_LOGO_LINUX_VGA16 is not set
+ # CONFIG_LOGO_LINUX_CLUT224 is not set
+@@ -518,6 +521,7 @@ CONFIG_USB_CHIPIDEA_HOST=y
+ CONFIG_USB_SERIAL=m
+ CONFIG_USB_SERIAL_GENERIC=y
+ CONFIG_USB_SERIAL_FTDI_SIO=m
++CONFIG_USB_SERIAL_WWAN=m
+ CONFIG_USB_SERIAL_OPTION=m
+ CONFIG_USB_EHSET_TEST_FIXTURE=y
+ CONFIG_NOP_USB_XCEIV=y
+diff --git a/drivers/net/usb/ipheth.c b/drivers/net/usb/ipheth.c
+index d49c710..0c9403d 100644
+--- a/drivers/net/usb/ipheth.c
++++ b/drivers/net/usb/ipheth.c
+@@ -149,6 +149,7 @@ struct ipheth_device {
+ 	u8 bulk_in;
+ 	u8 bulk_out;
+ 	struct delayed_work carrier_work;
++	bool confirmed_pairing;
+ };
+ 
+ static int ipheth_rx_submit(struct ipheth_device *dev, gfp_t mem_flags);
+@@ -259,7 +260,7 @@ static void ipheth_rcvbulk_callback(struct urb *urb)
+ 
+ 	dev->net->stats.rx_packets++;
+ 	dev->net->stats.rx_bytes += len;
+-
++	dev->confirmed_pairing = true;
+ 	netif_rx(skb);
+ 	ipheth_rx_submit(dev, GFP_ATOMIC);
+ }
+@@ -281,14 +282,24 @@ static void ipheth_sndbulk_callback(struct urb *urb)
+ 		__func__, status);
+ 
+ 	dev_kfree_skb_irq(dev->tx_skb);
+-	netif_wake_queue(dev->net);
++	if (status == 0)
++		netif_wake_queue(dev->net);
++	else
++		// on URB error, trigger immediate poll
++		schedule_delayed_work(&dev->carrier_work, 0);
+ }
+ 
+ static int ipheth_carrier_set(struct ipheth_device *dev)
+ {
+-	struct usb_device *udev = dev->udev;
++	struct usb_device *udev;
+ 	int retval;
+ 
++	if (!dev)
++		return 0;
++	if (!dev->confirmed_pairing)
++		return 0;
++
++	udev = dev->udev;
+ 	retval = usb_control_msg(udev,
+ 			usb_rcvctrlpipe(udev, IPHETH_CTRL_ENDP),
+ 			IPHETH_CMD_CARRIER_CHECK, /* request */
+@@ -303,11 +314,14 @@ static int ipheth_carrier_set(struct ipheth_device *dev)
+ 		return retval;
+ 	}
+ 
+-	if (dev->ctrl_buf[0] == IPHETH_CARRIER_ON)
++	if (dev->ctrl_buf[0] == IPHETH_CARRIER_ON) {
+ 		netif_carrier_on(dev->net);
+-	else
++		if (dev->tx_urb->status != -EINPROGRESS)
++			netif_wake_queue(dev->net);
++	} else {
+ 		netif_carrier_off(dev->net);
+-
++		netif_stop_queue(dev->net);
++	}
+ 	return 0;
+ }
+ 
+@@ -387,7 +401,6 @@ static int ipheth_open(struct net_device *net)
+ 		return retval;
+ 
+ 	schedule_delayed_work(&dev->carrier_work, IPHETH_CARRIER_CHECK_TIMEOUT);
+-	netif_start_queue(net);
+ 	return retval;
+ }
+ 
+@@ -491,7 +504,7 @@ static int ipheth_probe(struct usb_interface *intf,
+ 	dev->udev = udev;
+ 	dev->net = netdev;
+ 	dev->intf = intf;
+-
++	dev->confirmed_pairing = false;
+ 	/* Set up endpoints */
+ 	hintf = usb_altnum_to_altsetting(intf, IPHETH_ALT_INTFNUM);
+ 	if (hintf == NULL) {
+@@ -542,7 +555,9 @@ static int ipheth_probe(struct usb_interface *intf,
+ 		retval = -EIO;
+ 		goto err_register_netdev;
+ 	}
+-
++	// carrier down and transmit queues stopped until packet from device
++	netif_carrier_off(netdev);
++	netif_tx_stop_all_queues(netdev);
+ 	dev_info(&intf->dev, "Apple iPhone USB Ethernet device attached\n");
+ 	return 0;
+ 
+@@ -585,4 +600,4 @@ module_usb_driver(ipheth_driver);
+ 
+ MODULE_AUTHOR("Diego Giagio <diego@giagio.com>");
+ MODULE_DESCRIPTION("Apple iPhone USB Ethernet driver");
+-MODULE_LICENSE("Dual BSD/GPL");
++MODULE_LICENSE("Dual BSD/GPL");
+\ No newline at end of file
+diff --git a/drivers/usb/serial/option.c b/drivers/usb/serial/option.c
+index 0600dad..d360113 100644
+--- a/drivers/usb/serial/option.c
++++ b/drivers/usb/serial/option.c
+@@ -1973,6 +1973,7 @@ static struct usb_serial_driver option_1port_device = {
+ #ifdef CONFIG_PM
+ 	.suspend           = usb_wwan_suspend,
+ 	.resume            = usb_wwan_resume,
++	.reset_resume      = usb_wwan_resume,	
+ #endif
+ };
+ 
+diff --git a/drivers/usb/serial/usb_wwan.c b/drivers/usb/serial/usb_wwan.c
+index 59bfcb3..a529983 100644
+--- a/drivers/usb/serial/usb_wwan.c
++++ b/drivers/usb/serial/usb_wwan.c
+@@ -502,7 +502,12 @@ static struct urb *usb_wwan_setup_urb(struct usb_serial_port *port,
+ 			  usb_sndbulkpipe(serial->dev, endpoint) | dir,
+ 			  buf, len, callback, ctx);
+ 
+-	return urb;
++	if (dir == USB_DIR_OUT) { 
++		struct usb_device_descriptor *desc = &serial->dev->descriptor; 
++		if (desc->idVendor == cpu_to_le16(0x2C7C)) 
++			urb->transfer_flags |= URB_ZERO_PACKET;  
++	}
++ 	return urb;
+ }
+ 
+ int usb_wwan_port_probe(struct usb_serial_port *port)

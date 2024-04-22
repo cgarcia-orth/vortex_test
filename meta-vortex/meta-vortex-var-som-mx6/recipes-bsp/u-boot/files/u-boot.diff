@@ -1,0 +1,29 @@
+diff --git a/board/variscite/mx6var_som/mx6var_som.c b/board/variscite/mx6var_som/mx6var_som.c
+index 45dbb8e..c02c183 100644
+--- a/board/variscite/mx6var_som/mx6var_som.c
++++ b/board/variscite/mx6var_som/mx6var_som.c
+@@ -851,16 +851,15 @@ struct display_info_t const displays[] = {{
+ 	.enable	= lvds_enable_disable,
+ 	.mode	= {
+ 		.name           = "VAR-WVGA MX6CB-R",
+-		.refresh        = 60,  /* optional */
+ 		.xres           = 800,
+-		.yres           = 480,
+-		.pixclock       = MHZ2PS(50),
+-		.left_margin    = 0,
+-		.right_margin   = 40,
+-		.upper_margin   = 20,
+-		.lower_margin   = 13,
+-		.hsync_len      = 48,
+-		.vsync_len      = 3,
++		.yres           = 600,
++		.pixclock       = MHZ2PS(40),
++		.left_margin    = 46,
++		.right_margin   = 210,
++		.upper_margin   = 23,
++		.lower_margin   = 12,
++		.hsync_len      = 20,
++		.vsync_len      = 13,
+ 		.sync           = FB_SYNC_EXT,
+ 		.vmode          = FB_VMODE_NONINTERLACED
+ } } };

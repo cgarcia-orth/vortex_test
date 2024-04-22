@@ -1,0 +1,16 @@
+[Unit]
+Description="Mock Communication manager application"
+After=vortex-init.service
+
+[Service]
+Type=simple
+NotifyAccess=main
+WatchdogSec=60
+Restart=on-failure
+RestartSec=5
+ExecStart=/usr/bin/MockComMgr -l
+TimeoutSec=30
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,9 @@
+[Unit]
+Description=Monitor USB serial on cell modem
+
+[Path]
+PathChanged=/dev/ttyUSB3
+Unit=pppd.service
+
+[Install]
+WantedBy=multi-user.target

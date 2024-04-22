@@ -1,0 +1,49 @@
+{
+  "env": "provisioning",
+  "debug": false,
+  "version": "3.0.6",
+  "provisioning": {
+    "provisioningEndpoint": "https://mlink.vortex-intl.com/api/v1/provision",
+    "httpTimeout": 60000,
+    "minFetchDelay": 0,
+    "maxFetchDelay": 600000,
+    "fetchIncrement": 5000,
+    "ledInterval": 1000,
+    "ledErrorInterval": 250,
+    "led": {
+      "spare1": {
+        "on": "echo \"1\" > /opt/vortex/ios/spare_led1/value",
+        "off": "echo \"0\" > /opt/vortex/ios/spare_led1/value"
+      },
+      "spare2": {
+        "on": "echo \"1\" > /opt/vortex/ios/spare_led2/value",
+        "off": "echo \"0\" > /opt/vortex/ios/spare_led2/value"
+      },
+      "spare3": {
+        "on": "echo \"1\" > /opt/vortex/ios/spare_led3/value",
+        "off": "echo \"0\" > /opt/vortex/ios/spare_led3/value"
+      }
+    }
+  },
+  "production": {
+    "iot": {
+      "privateKeyPath": "tls/private.key",
+      "certificatePath": "tls/cert.crt",
+      "caPath": "tls/ca.crt"
+    },
+    "maestro": {
+      "host": "127.0.0.1",
+      "port": 44200
+    },
+    "comManager": {
+      "port": 44300,
+      "path": "/usr/bin/comm_manager",
+      "configFolderPath": "/opt/vortex/comm_manager"
+    },
+    "software": {
+      "updateDir": "/opt/vortex/update/",
+      "updateScript": "/usr/bin/vortex-update.sh",
+      "updateStatus": "/opt/vortex/update_status"
+    }
+  }
+}

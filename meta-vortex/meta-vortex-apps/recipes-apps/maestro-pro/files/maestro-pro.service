@@ -1,0 +1,18 @@
+[Unit]
+Description="Maestro PRO application"
+After=vortex-init.service
+Requires=connman.service
+
+[Service]
+Type=simple
+NotifyAccess=main
+WatchdogSec=60
+Restart=always
+RestartSec=5
+ExecStartPre=/usr/bin/MaestroProPreStartScripts.sh
+ExecStart=/usr/bin/MaestroPro
+TimeoutSec=30
+
+[Install]
+WantedBy=multi-user.target
+

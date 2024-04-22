@@ -1,0 +1,27 @@
+[Unit]
+Description="Communication manager application"
+After=vortex-init.service
+
+[Service]
+Type=simple
+WatchdogSec=60
+Restart=always
+RestartSec=5
+ExecStart=/usr/bin/node /usr/bin/comm_manager/bin/index.js
+Environment=NODE_ENV=production
+Environment=NODE_CONFIG_DIR=/opt/vortex/comm_manager/config
+Environment=SUPPRESS_NO_CONFIG_WARNING=1
+WorkingDirectory=/usr/bin/comm_manager
+
+# Output to syslog
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=communication-manager
+
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
+
+

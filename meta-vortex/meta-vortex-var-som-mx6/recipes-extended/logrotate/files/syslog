@@ -1,0 +1,30 @@
+/var/log/syslog
+/var/log/daemon.log
+{
+        rotate 10
+        size 100k
+        missingok
+        compress
+        delaycompress
+        copytruncate
+}
+/var/log/mail.info
+/var/log/mail.warn
+/var/log/mail.err
+/var/log/mail.log
+/var/log/kern.log
+/var/log/auth.log
+/var/log/user.log
+/var/log/lpr.log
+/var/log/cron.log
+/var/log/debug
+/var/log/messages
+{
+        rotate 1
+        size 100k
+        missingok
+        compress
+        delaycompress
+        copytruncate
+}
+

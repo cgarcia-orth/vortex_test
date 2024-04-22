@@ -1,0 +1,10 @@
+[Unit]
+Description=PPP over Serial link
+After=network.target
+
+[Service]
+ExecStart=/usr/sbin/pppd -detach call quectel-ppp
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
