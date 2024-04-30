@@ -1,0 +1,16 @@
+PN: vortex-core
+PV: 1.0.5
+PR: r0
+PKGV: 1.0.5
+PKGR: r0
+LICENSE: CLOSED
+DESCRIPTION_vortex-core-dev: VortexCore  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_vortex-core-dev: vortex-core version 1.0.5-r0 - Development files
+RDEPENDS_vortex-core-dev: vortex-core (= 1.0.5-r0)
+RRECOMMENDS_vortex-core-dev: gtest-dev libjson-dev libsole-dev spdlog-dev systemd-dev libgcc-dev libstdc++-dev glibc-dev
+SECTION_vortex-core-dev: devel
+PKG_vortex-core-dev: vortex-core-dev
+ALLOW_EMPTY_vortex-core-dev: 1
+FILES_vortex-core-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vortex-core/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake      /usr/include/*.h     /usr/include/ 
+FILES_INFO: {"/usr/include/VortexCore/src/Threading/ScopedLock.h": 749, "/usr/include/VortexCore/src/Debounce/DebounceFactory.h": 1562, "/usr/include/VortexCore/src/JsonCommunication/JsonCommunication.h": 5860, "/usr/include/VortexCore/includes/Debounce": 622, "/usr/include/VortexCore/includes/ErrorCodes": 824, "/usr/include/VortexCore/includes/Event": 593, "/usr/include/VortexCore/src/Test/TestUtils/TestUtils.h": 744, "/usr/include/VortexCore/src/Time/TimeProviderFactory.h": 985, "/usr/include/VortexCore/includes/JsonCommunication": 673, "/usr/include/VortexCore/includes/Mutex": 574, "/usr/include/VortexCore/src/Debounce/IDebounce.h": 1540, "/usr/lib/libVortexCore.so": 18, "/usr/include/VortexCore/includes/LoggerFactory": 619, "/usr/include/VortexCore/src/Time/TimeProvider.h": 1212, "/usr/include/VortexCore/includes/SystemdUtilsFactory": 651, "/usr/include/VortexCore/src/Time/MockedTimeProvider.h": 1262, "/usr/include/VortexCore/src/Systemd/MockedSystemdUtils.h": 817, "/usr/include/VortexCore/includes/ScopedLock": 610, "/usr/include/VortexCore/src/Logger/LoggerFactory.h": 1150, "/usr/include/VortexCore/src/Threading/Mutex.h": 701, "/usr/include/VortexCore/src/Debounce/MockedThreadedDebounce.h": 1403, "/usr/include/VortexCore/src/Debounce/MockedDebounce.h": 1337, "/usr/include/VortexCore/src/JsonCommunication/IJsonMsgListener.h": 1020, "/usr/include/VortexCore/src/Systemd/SystemdUtils.h": 737, "/usr/include/VortexCore/src/Debounce/Debounce.h": 1510, "/usr/include/VortexCore/includes/TimeProviderFactory": 648, "/usr/include/VortexCore/src/Systemd/ISystemdUtils.h": 746, "/usr/include/VortexCore/src/Debounce/ThreadedDebounce.h": 1651, "/usr/include/VortexCore/src/Time/ITimeProvider.h": 1182, "/usr/include/VortexCore/src/Debounce/IThreadedDebounce.h": 1002, "/usr/include/VortexCore/src/Threading/Event.h": 831, "/usr/include/VortexCore/src/Systemd/SystemdUtilsFactory.h": 983}
+PKGSIZE_vortex-core-dev: 34816

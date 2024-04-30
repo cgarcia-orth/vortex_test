@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Install passwd.master and group.master to sysconfdir
+install -d -m 755 /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot/etc
+for i in passwd group; do
+	install -p -m 644 /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot/usr/share/base-passwd/$i.master 		/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot/etc/$i
+done
+
+# Run any useradd postinsts
+for script in /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot/usr/bin/postinst-useradd-*; do
+	if [ -f $script ]; then
+		$script
+	fi
+done
+

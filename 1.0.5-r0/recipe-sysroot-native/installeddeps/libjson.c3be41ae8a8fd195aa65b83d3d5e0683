@@ -1,0 +1,12 @@
+recipe-sysroot/sysroot-providers/libjson
+recipe-sysroot/usr/include/nlohmann/json.hpp
+recipe-sysroot/usr/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+recipe-sysroot/usr/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+recipe-sysroot/usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+recipe-sysroot/usr/lib/cmake/nlohmann_json/
+recipe-sysroot/usr/include/nlohmann/
+recipe-sysroot/sysroot-providers/
+recipe-sysroot/usr/lib/cmake/
+recipe-sysroot/usr/include/
+recipe-sysroot/usr/lib/
+recipe-sysroot/usr/

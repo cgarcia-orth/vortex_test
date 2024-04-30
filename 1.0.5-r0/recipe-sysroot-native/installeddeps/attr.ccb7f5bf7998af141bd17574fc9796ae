@@ -1,0 +1,17 @@
+recipe-sysroot/lib/libattr.so
+recipe-sysroot/lib/libattr.so.1.1.0
+recipe-sysroot/lib/libattr.so.1
+recipe-sysroot/sysroot-providers/attr
+recipe-sysroot/usr/include/attr/attributes.h
+recipe-sysroot/usr/include/attr/libattr.h
+recipe-sysroot/usr/include/attr/xattr.h
+recipe-sysroot/usr/include/attr/error_context.h
+recipe-sysroot/usr/lib/libattr.so
+recipe-sysroot/sysroot-providers/
+recipe-sysroot/usr/include/attr/
+recipe-sysroot/usr/lib/attr/
+recipe-sysroot/usr/include/
+recipe-sysroot/usr/share/
+recipe-sysroot/usr/lib/
+recipe-sysroot/usr/
+recipe-sysroot/lib/

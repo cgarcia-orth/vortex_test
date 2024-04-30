@@ -1,0 +1,5 @@
+recipe-sysroot/sysroot-providers/libsole
+recipe-sysroot/usr/include/sole.hpp
+recipe-sysroot/sysroot-providers/
+recipe-sysroot/usr/include/
+recipe-sysroot/usr/

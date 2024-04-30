@@ -1,0 +1,9 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Searching for VortexCore in paths:
+    /home/vortex/build/Vortex_SourceCode/vortex/
+NOTE: Unpacking /home/vortex/build/Vortex_SourceCode/vortex/VortexCore to /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+DEBUG: Python function do_qa_unpack finished

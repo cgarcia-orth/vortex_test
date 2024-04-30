@@ -1,0 +1,16 @@
+recipe-sysroot/lib/libacl.so.1.1.0
+recipe-sysroot/lib/libacl.so
+recipe-sysroot/lib/libacl.so.1
+recipe-sysroot/sysroot-providers/acl
+recipe-sysroot/usr/include/acl/libacl.h
+recipe-sysroot/usr/include/sys/acl.h
+recipe-sysroot/usr/lib/libacl.so
+recipe-sysroot/sysroot-providers/
+recipe-sysroot/usr/include/sys/
+recipe-sysroot/usr/include/acl/
+recipe-sysroot/usr/lib/acl/
+recipe-sysroot/usr/include/
+recipe-sysroot/usr/share/
+recipe-sysroot/usr/lib/
+recipe-sysroot/usr/
+recipe-sysroot/lib/

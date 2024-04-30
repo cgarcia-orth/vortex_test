@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'ERROR: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot-native/usr/bin/ncursesw6-config should not be used, use an alternative such as pkg-config' >&2
+echo '--should-not-have-used-/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/vortex-core/1.0.5-r0/recipe-sysroot-native/usr/bin/ncursesw6-config'
+exit 1

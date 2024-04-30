@@ -1,0 +1,19 @@
+/**************************************************************************************************
+* Module Name    : Event
+*
+* Description    : Implementation of a threading event, similar to python.
+*
+* Copyright (c) 2019 Vortex Aquatic Structures International Inc. All Rights Reserved.
+*
+* Revision history:
+*
+*  2019-08-27  Olivier Allaire : Initial implementation.
+*
+**************************************************************************************************/
+
+#ifndef VORTEXCORE_EVENT
+#define VORTEXCORE_EVENT
+
+#include "../src/Threading/Event.h"
+
+#endif /* VORTEXCORE_EVENT */

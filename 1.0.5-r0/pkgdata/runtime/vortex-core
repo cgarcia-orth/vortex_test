@@ -1,0 +1,19 @@
+PN: vortex-core
+PV: 1.0.5
+PR: r0
+PKGV: 1.0.5
+PKGR: r0
+LICENSE: CLOSED
+DESCRIPTION: VortexCore
+SUMMARY: vortex-core version 1.0.5-r0
+RDEPENDS_vortex-core: libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) glibc (>= 2.28)
+SECTION: base
+PKG_vortex-core: vortex-core
+FILES_vortex-core: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/vortex-core /usr/lib/vortex-core/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers      /usr/include/*.h     /usr/include/ 
+pkg_postinst_vortex-core: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_vortex-core: /usr/lib/libVortexCore.so.0
+FILES_INFO: {"/usr/lib/libVortexCore.so.0": 407888}
+FILERPROVIDES_/usr/lib/libVortexCore.so.0_vortex-core:  libVortexCore.so
+FILERDEPENDSFLIST_vortex-core: /usr/lib/libVortexCore.so.0
+FILERDEPENDS_/usr/lib/libVortexCore.so.0_vortex-core:  ld-linux-armhf.so.3(GLIBC_2.4) libgcc_s.so.1(GCC_3.5) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.4) libstdc++.so.6(GLIBCXX_3.4.20) libstdc++.so.6(CXXABI_1.3.8) libstdc++.so.6(GLIBCXX_3.4.18) libstdc++.so.6(CXXABI_1.3.5) libstdc++.so.6(GLIBCXX_3.4.9) libstdc++.so.6(GLIBCXX_3.4.11) libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4.14) libstdc++.so.6(GLIBCXX_3.4.15) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4.22) libstdc++.so.6(GLIBCXX_3.4.19) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.21) libpthread.so.0(GLIBC_2.12) libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libgcc_s.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_vortex-core: 407888

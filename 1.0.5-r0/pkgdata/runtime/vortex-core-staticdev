@@ -1,0 +1,14 @@
+PN: vortex-core
+PV: 1.0.5
+PR: r0
+PKGV: 1.0.5
+PKGR: r0
+LICENSE: CLOSED
+DESCRIPTION_vortex-core-staticdev: VortexCore  This package contains static libraries for software development.
+SUMMARY_vortex-core-staticdev: vortex-core version 1.0.5-r0 - Development files (Static Libraries)
+RDEPENDS_vortex-core-staticdev: vortex-core-dev (= 1.0.5-r0)
+SECTION_vortex-core-staticdev: devel
+PKG_vortex-core-staticdev: vortex-core-staticdev
+FILES_vortex-core-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/vortex-core/*.a
+FILES_INFO: {"/usr/lib/libVortexCore.a": 15952704}
+PKGSIZE_vortex-core-staticdev: 15952704

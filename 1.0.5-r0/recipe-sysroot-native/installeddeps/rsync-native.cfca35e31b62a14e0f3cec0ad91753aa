@@ -1,0 +1,8 @@
+recipe-sysroot-native/etc/rsyncd.conf
+recipe-sysroot-native/sysroot-providers/rsync-native
+recipe-sysroot-native/usr/bin/rsync
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/
+recipe-sysroot-native/etc/

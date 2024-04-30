@@ -1,0 +1,9 @@
+Name: libgmock
+Version: 1.8.0
+Description: Google's framework for writing C++ tests on a variety of platforms
+
+prefix=/usr
+includedir=include
+libdir=lib
+Cflags:-I${includedir}/gmock
+Libs: -L${libdir} -lgmock -lgmock_main

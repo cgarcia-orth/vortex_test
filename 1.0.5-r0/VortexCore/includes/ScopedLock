@@ -1,0 +1,19 @@
+/**************************************************************************************************
+* Module Name    : Event
+*
+* Description    : Implementation of a scoped lock
+*
+* Copyright (c) 2019 Vortex Aquatic Structures International Inc. All Rights Reserved.
+*
+* Revision history:
+*
+*  2019-09-17  Olivier Allaire : Initial implementation.
+*
+**************************************************************************************************/
+
+#ifndef VORTEXCORE_SCOPEDLOCK_FACT_H
+#define VORTEXCORE_SCOPEDLOCK_FACT_H
+
+#include "../src/Threading/ScopedLock.h"
+
+#endif /* VORTEXCORE_SCOPEDLOCK_FACT_H */

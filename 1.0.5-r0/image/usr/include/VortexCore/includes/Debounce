@@ -1,0 +1,19 @@
+/**************************************************************************************************
+* Module Name    : Debounce
+*
+* Description    : Debounce objects allowing to filter high frequency transitions.
+*
+* Copyright (c) 2019 Vortex Aquatic Structures International Inc. All Rights Reserved.
+*
+* Revision history:
+*
+*  2019-11-06  Olivier Allaire : Initial implementation.
+*
+**************************************************************************************************/
+
+#ifndef VORTEXCORE_DEBOUNCE
+#define VORTEXCORE_DEBOUNCE
+
+#include "../src/Debounce/DebounceFactory.h"
+
+#endif /* VORTEXCORE_DEBOUNCE */

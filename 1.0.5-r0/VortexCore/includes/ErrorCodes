@@ -1,0 +1,31 @@
+/**************************************************************************************************
+* Module Name    : ErrorCodes
+*
+* Description    : Implementation of communication error codes
+*
+* Copyright (c) 2022 Vortex Aquatic Structures International Inc. All Rights Reserved.
+*
+* Revision history:
+*
+*  2022-12-08  Carlos Garcia : Initial implementation.
+*
+**************************************************************************************************/
+
+#ifndef VORTEXCORE_ERRORCODES_H
+#define VORTEXCORE_ERRORCODES_H
+
+enum class SYSTEM_CODE {
+    CONTROLLER_REBOOT = 1,
+    SYSTEM_REBOOT =  2
+};
+
+enum class ERROR_CODE {
+    START = -1,
+    IO_DISCARDED = -32001,
+    OVERLAP = -32002,
+    INVALID_TIME = -32003,
+    INVALID_REQUEST = -32600,
+    INVALID_PARAM = -32602
+};
+
+#endif /* VORTEXCORE_ERRORCODES_H */

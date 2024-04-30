@@ -1,0 +1,20 @@
+/**************************************************************************************************
+* Module Name    : JsonCommunication
+*
+* Description    : Implementation of Json communication
+*
+* Copyright (c) 2019 Vortex Aquatic Structures International Inc. All Rights Reserved.
+*
+* Revision history:
+*
+*  2019-10-21  Olivier Battion : Initial implementation.
+*
+**************************************************************************************************/
+
+#ifndef VORTEXCORE_JSONCOM_H
+#define VORTEXCORE_JSONCOM_H
+
+#include "../src/JsonCommunication/JsonCommunication.h"
+#include "../src/JsonCommunication/IJsonMsgListener.h"
+
+#endif /* VORTEXCORE_JSONCOM_H */

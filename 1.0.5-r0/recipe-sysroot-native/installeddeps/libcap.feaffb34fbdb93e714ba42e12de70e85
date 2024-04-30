@@ -1,0 +1,15 @@
+recipe-sysroot/lib/libcap.so
+recipe-sysroot/lib/libcap.so.2.25
+recipe-sysroot/lib/libcap.so.2
+recipe-sysroot/lib/libcap.a
+recipe-sysroot/sysroot-providers/libcap
+recipe-sysroot/usr/include/sys/capability.h
+recipe-sysroot/usr/lib/pkgconfig/libcap.pc
+recipe-sysroot/usr/lib/pkgconfig/
+recipe-sysroot/sysroot-providers/
+recipe-sysroot/usr/include/sys/
+recipe-sysroot/usr/include/
+recipe-sysroot/usr/share/
+recipe-sysroot/usr/lib/
+recipe-sysroot/usr/
+recipe-sysroot/lib/
