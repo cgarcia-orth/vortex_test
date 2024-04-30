@@ -1,0 +1,19 @@
+/**************************************************************************************************
+* Module Name    : LoggerFactory
+*
+* Description    : Utility functions to build loggers.
+*
+* Copyright (c) 2019 Vortex Aquatic Structures International Inc. All Rights Reserved.
+*
+* Revision history:
+*
+*  2019-07-30  Olivier Allaire : Initial implementation.
+*
+**************************************************************************************************/
+
+#ifndef LOGGER_LOGGERFACTORYFACTORY
+#define LOGGER_LOGGERFACTORYFACTORY
+
+#include "../src/Logger/LoggerFactory.h"
+
+#endif /* LOGGER_LOGGERFACTORYFACTORY */

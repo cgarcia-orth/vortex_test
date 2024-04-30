@@ -1,0 +1,19 @@
+/**************************************************************************************************
+* Module Name    : TimeProviderFactory
+*
+* Description    : Factory class to create TimeProvider objects.
+*
+* Copyright (c) 2019 Vortex Aquatic Structures International Inc. All Rights Reserved.
+*
+* Revision history:
+*
+*  2019-08-27  Olivier Allaire : Initial implementation.
+*
+**************************************************************************************************/
+
+#ifndef VORTEXCORE_TIMEPROVIDERFACTORY
+#define VORTEXCORE_TIMEPROVIDERFACTORY
+
+#include "../src/Time/TimeProviderFactory.h"
+
+#endif /* VORTEXCORE_TIMEPROVIDERFACTORY */
