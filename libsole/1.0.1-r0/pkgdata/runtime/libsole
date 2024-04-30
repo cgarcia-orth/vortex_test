@@ -1,0 +1,13 @@
+PN: libsole
+PV: 1.0.1
+PR: r0
+PKGV: 1.0.1
+PKGR: r0
+LICENSE: Zlib
+DESCRIPTION: Sole is a lightweight C++11 library to generate universally unique identificators (UUID), both v1 and v4.
+SUMMARY: libsole version 1.0.1-r0
+SECTION: base
+PKG_libsole: libsole
+FILES_libsole: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libsole /usr/lib/libsole/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers      /usr/include/*.hpp     /usr/include 
+FILES_INFO: {}
+PKGSIZE_libsole: 0

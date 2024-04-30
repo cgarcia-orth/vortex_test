@@ -1,0 +1,21 @@
+DEBUG: Executing shell function do_configure
+-- The CXX compiler identification is GNU 8.2.0
+-- Check for working CXX compiler: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/spdlog/1.3.1-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/arm-fslc-linux-gnueabi-g++
+-- Check for working CXX compiler: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/spdlog/1.3.1-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/arm-fslc-linux-gnueabi-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build type: Release
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    SPDLOG_INSTALL
+
+
+-- Build files have been written to: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/spdlog/1.3.1-r0/build
+DEBUG: Shell function do_configure finished
+DEBUG: Executing python function do_qa_configure
+DEBUG: Python function do_qa_configure finished

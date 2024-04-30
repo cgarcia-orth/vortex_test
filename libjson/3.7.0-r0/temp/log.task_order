@@ -1,0 +1,12 @@
+do_fetch (8344): log.do_fetch.8344
+do_unpack (8367): log.do_unpack.8367
+do_prepare_recipe_sysroot (8368): log.do_prepare_recipe_sysroot.8368
+do_patch (8633): log.do_patch.8633
+do_generate_toolchain_file (8651): log.do_generate_toolchain_file.8651
+do_configure (8675): log.do_configure.8675
+do_compile (8808): log.do_compile.8808
+do_install (9451): log.do_install.9451
+do_populate_sysroot (9463): log.do_populate_sysroot.9463
+do_package (9462): log.do_package.9462
+do_packagedata (9830): log.do_packagedata.9830
+do_package_write_rpm (9971): log.do_package_write_rpm.9971

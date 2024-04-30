@@ -1,0 +1,14 @@
+PN: spdlog
+PV: 1.3.1
+PR: r0
+PKGV: 1.3.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_spdlog-staticdev: Very fast, header only, C++ logging library.  This package contains static libraries for software development.
+SUMMARY_spdlog-staticdev: spdlog version 1.3.1-r0 - Development files (Static Libraries)
+RDEPENDS_spdlog-staticdev: spdlog-dev (= 1.3.1-r0)
+SECTION_spdlog-staticdev: devel
+PKG_spdlog-staticdev: spdlog-staticdev
+FILES_spdlog-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/spdlog/*.a
+FILES_INFO: {}
+PKGSIZE_spdlog-staticdev: 0

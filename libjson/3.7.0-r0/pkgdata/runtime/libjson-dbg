@@ -1,0 +1,15 @@
+PN: libjson
+PV: 3.7.0
+PR: r0
+PKGV: 3.7.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libjson-dbg: Open Source library to serialize/unserialize JSON messages.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libjson-dbg: libjson version 3.7.0-r0 - Debugging files
+RRECOMMENDS_libjson-dbg: libjson-dev (= 3.7.0-r0)
+SECTION_libjson-dbg: devel
+PKG_libjson-dbg: libjson-dbg
+ALLOW_EMPTY_libjson-dbg: 1
+FILES_libjson-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_libjson-dbg: 0

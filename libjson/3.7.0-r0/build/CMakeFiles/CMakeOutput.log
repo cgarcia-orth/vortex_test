@@ -1,0 +1,457 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 4.15.0-142-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/arm-fslc-linux-gnueabi-g++ 
+Build flags: ;-march=armv7-a;-mthumb;-mfpu=neon;-mfloat-abi=hard;-fstack-protector-strong;;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;;--sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot;;-O2;-pipe;-g;-feliminate-unused-debug-types;-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0=/usr/src/debug/libjson/3.7.0-r0;-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot=;-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native=;;-fvisibility-inlines-hidden;;-march=armv7-a;-mthumb;-mfpu=neon;-mfloat-abi=hard;-fstack-protector-strong;;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;;--sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build/CMakeFiles/3.12.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"ninja" "cmTC_564e8"
+[1/2] Building CXX object CMakeFiles/cmTC_564e8.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_564e8
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"ninja" "cmTC_e9940"
+[1/2] Building CXX object CMakeFiles/cmTC_e9940.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_e9940
+Using built-in specs.
+COLLECT_GCC=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/arm-fslc-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/lto-wrapper
+Target: arm-fslc-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-8.2.0-r0/gcc-8.2.0/configure --build=x86_64-linux --host=x86_64-linux --target=arm-fslc-linux-gnueabi --prefix=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr --exec_prefix=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr --bindir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi --sbindir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi --libexecdir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/libexec/arm-fslc-linux-gnueabi --datadir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/share --sysconfdir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/etc --sharedstatedir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/com --localstatedir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/var --libdir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/lib/arm-fslc-linux-gnueabi --includedir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/include --oldincludedir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/include --infodir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/share/info --mandir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --disable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-fslc-linux-gnueabi- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=sysv --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.2.0 --with-sysroot=/not/exist --with-build-sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --with-system-zlib --disable-static --disable-nls --enable-initfini-array
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/
+LIBRARY_PATH=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/lib/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot'  '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Werror=format-security' '-O2' '-pipe' '-g' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0=/usr/src/debug/libjson/3.7.0-r0' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot=' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native='  '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Werror=format-security'  '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0=/usr/src/debug/libjson/3.7.0-r0' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot=' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native=' '-fvisibility-inlines-hidden'  '-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '-fstack-protector-strong' '-v' '-rdynamic' '-o' 'cmTC_e9940' '-shared-libgcc' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+ /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/collect2 -plugin /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/liblto_plugin.so -plugin-opt=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOcolpD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot --build-id --eh-frame-hdr --hash-style=sysv -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_e9940 /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/Scrt1.o /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/crti.o /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0/crtbeginS.o -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0 -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/lib -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0 -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_e9940.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0/crtendS.o /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot'  '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Werror=format-security' '-O2' '-pipe' '-g' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0=/usr/src/debug/libjson/3.7.0-r0' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot=' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native='  '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Werror=format-security'  '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0=/usr/src/debug/libjson/3.7.0-r0' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot=' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native=' '-fvisibility-inlines-hidden'  '-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '-fstack-protector-strong' '-v' '-rdynamic' '-o' 'cmTC_e9940' '-shared-libgcc' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-fslc-linux-gnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"ninja" "cmTC_e9940"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_e9940.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_e9940]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/arm-fslc-linux-gnueabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/lto-wrapper]
+  ignore line: [Target: arm-fslc-linux-gnueabi]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-8.2.0-r0/gcc-8.2.0/configure --build=x86_64-linux --host=x86_64-linux --target=arm-fslc-linux-gnueabi --prefix=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr --exec_prefix=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr --bindir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi --sbindir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi --libexecdir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/libexec/arm-fslc-linux-gnueabi --datadir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/share --sysconfdir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/etc --sharedstatedir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/com --localstatedir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/var --libdir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/lib/arm-fslc-linux-gnueabi --includedir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/include --oldincludedir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/include --infodir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/share/info --mandir=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot-native --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --disable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-fslc-linux-gnueabi- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=sysv --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.2.0 --with-sysroot=/not/exist --with-build-sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/x86_64-linux/gcc-cross-arm/8.2.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --with-system-zlib --disable-static --disable-nls --enable-initfini-array]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/]
+  ignore line: [LIBRARY_PATH=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/lib/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0/:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot'  '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Werror=format-security' '-O2' '-pipe' '-g' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0=/usr/src/debug/libjson/3.7.0-r0' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot=' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native='  '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Werror=format-security'  '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0=/usr/src/debug/libjson/3.7.0-r0' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot=' '-fdebug-prefix-map=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native=' '-fvisibility-inlines-hidden'  '-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '-fstack-protector-strong' '-v' '-rdynamic' '-o' 'cmTC_e9940' '-shared-libgcc' '-mtls-dialect=gnu' '-march=armv7-a+simd']
+  link line: [ /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/collect2 -plugin /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/liblto_plugin.so -plugin-opt=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOcolpD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot --build-id --eh-frame-hdr --hash-style=sysv -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_e9940 /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/Scrt1.o /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/crti.o /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0/crtbeginS.o -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0 -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/lib -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0 -L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_e9940.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0/crtendS.o /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/crtn.o]
+    arg [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../libexec/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOcolpD.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=sysv] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e9940] ==> ignore
+    arg [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/Scrt1.o] ==> ignore
+    arg [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0/crtbeginS.o] ==> ignore
+    arg [-L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0] ==> dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0]
+    arg [-L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc] ==> dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc]
+    arg [-L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/lib] ==> dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/lib]
+    arg [-L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0] ==> dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0]
+    arg [-L/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib] ==> dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_e9940.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0/crtendS.o] ==> ignore
+    arg [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0] ==> [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0]
+  collapse library dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/arm-fslc-linux-gnueabi/../../lib/arm-fslc-linux-gnueabi/gcc] ==> [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/lib/arm-fslc-linux-gnueabi/gcc]
+  collapse library dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/lib] ==> [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/lib]
+  collapse library dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0] ==> [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0]
+  collapse library dir [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib] ==> [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/8.2.0;/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/lib/arm-fslc-linux-gnueabi/gcc;/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/lib;/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib/arm-fslc-linux-gnueabi/8.2.0;/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"ninja" "cmTC_1bb04"
+[1/2] Building CXX object CMakeFiles/cmTC_1bb04.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_1bb04
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"ninja" "cmTC_76c1c"
+[1/2] Building CXX object CMakeFiles/cmTC_76c1c.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_76c1c
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"ninja" "cmTC_3d6d6"
+[1/2] Building CXX object CMakeFiles/cmTC_3d6d6.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_3d6d6
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"ninja" "cmTC_8f796"
+[1/2] Building CXX object CMakeFiles/cmTC_8f796.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_8f796
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"ninja" "cmTC_99c3f"
+[1/2] Building CXX object CMakeFiles/cmTC_99c3f.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_99c3f
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

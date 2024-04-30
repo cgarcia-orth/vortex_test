@@ -1,0 +1,15 @@
+PN: libsole
+PV: 1.0.1
+PR: r0
+PKGV: 1.0.1
+PKGR: r0
+LICENSE: Zlib
+DESCRIPTION_libsole-dbg: Sole is a lightweight C++11 library to generate universally unique identificators (UUID), both v1 and v4.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libsole-dbg: libsole version 1.0.1-r0 - Debugging files
+RRECOMMENDS_libsole-dbg: libsole-dev (= 1.0.1-r0)
+SECTION_libsole-dbg: devel
+PKG_libsole-dbg: libsole-dbg
+ALLOW_EMPTY_libsole-dbg: 1
+FILES_libsole-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_libsole-dbg: 0

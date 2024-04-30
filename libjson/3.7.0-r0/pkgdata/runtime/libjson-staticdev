@@ -1,0 +1,14 @@
+PN: libjson
+PV: 3.7.0
+PR: r0
+PKGV: 3.7.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libjson-staticdev: Open Source library to serialize/unserialize JSON messages.  This package contains static libraries for software development.
+SUMMARY_libjson-staticdev: libjson version 3.7.0-r0 - Development files (Static Libraries)
+RDEPENDS_libjson-staticdev: libjson-dev (= 3.7.0-r0)
+SECTION_libjson-staticdev: devel
+PKG_libjson-staticdev: libjson-staticdev
+FILES_libjson-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libjson/*.a
+FILES_INFO: {}
+PKGSIZE_libjson-staticdev: 0

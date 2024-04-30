@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../../usr
+exec_prefix=${pcfiledir}/../../../usr
+libdir=${pcfiledir}/../../../usr/lib
+includedir=${pcfiledir}/../../../usr/include
+
+Name: mount
+Description: mount library
+Version: 2.32.1
+Requires.private: blkid
+Cflags: -I${includedir}/libmount
+Libs: -L${libdir} -lmount

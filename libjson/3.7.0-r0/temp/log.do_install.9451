@@ -1,0 +1,18 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-core/glibc/glibc_2.28.bb:do_populate_sysroot', 'virtual:native:/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', '/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/gcc/gcc-runtime_8.2.bb:do_populate_sysroot', 'virtual:native:/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/ninja/ninja_1.8.2.bb:do_populate_sysroot', '/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/gcc/gcc-cross_8.2.bb:do_populate_sysroot', '/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/cmake/cmake-native_3.12.2.bb:do_populate_sysroot', '/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['pseudo-native']
+NOTE: Skipping as already exists in sysroot: ['glibc', 'gcc-runtime', 'ninja-native', 'gcc-cross-arm', 'cmake-native', 'quilt-native', 'libgcc', 'linux-libc-headers', 'libmpc-native', 'zlib-native', 'automake-native', 'mpfr-native', 'gmp-native', 'xz-native', 'gnu-config-native', 'autoconf-native', 'binutils-cross-arm', 'texinfo-dummy-native', 'flex-native', 'libtool-native', 'curl-native', 'bzip2-native', 'expat-native', 're2c-native', 'gettext-minimal-native', 'm4-native', 'pkgconfig-native', 'openssl-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_install
+NOTE: DESTDIR=/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/image VERBOSE=1 cmake --build /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build --target install -- -j 10
+[0/1] cd /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/build && /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/recipe-sysroot-native/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: ""
+-- Installing: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/image/usr/include
+-- Installing: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/image/usr/include/nlohmann
+-- Installing: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/image/usr/include/nlohmann/json.hpp
+-- Installing: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/image/usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+-- Installing: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/image/usr/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+-- Installing: /home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libjson/3.7.0-r0/image/usr/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+DEBUG: Shell function do_install finished
+DEBUG: Executing shell function remove_libtool_la
+DEBUG: Shell function remove_libtool_la finished

@@ -1,0 +1,14 @@
+PN: libjson
+PV: 3.7.0
+PR: r0
+PKGV: 3.7.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libjson-dev: Open Source library to serialize/unserialize JSON messages.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libjson-dev: libjson version 3.7.0-r0 - Development files
+SECTION_libjson-dev: devel
+PKG_libjson-dev: libjson-dev
+ALLOW_EMPTY_libjson-dev: 1
+FILES_libjson-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libjson/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {"/usr/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake": 1607, "/usr/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake": 3888, "/usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake": 620, "/usr/include/nlohmann/json.hpp": 801007}
+PKGSIZE_libjson-dev: 807122

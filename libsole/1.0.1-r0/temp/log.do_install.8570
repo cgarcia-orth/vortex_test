@@ -1,0 +1,9 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-core/glibc/glibc_2.28.bb:do_populate_sysroot', '/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot', 'virtual:native:/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', '/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/gcc/gcc-runtime_8.2.bb:do_populate_sysroot', '/home/vortex/build/Vortex_SourceCode/yocto/poky/meta/recipes-devtools/gcc/gcc-cross_8.2.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['pseudo-native']
+NOTE: Skipping as already exists in sysroot: ['glibc', 'quilt-native', 'gcc-runtime', 'gcc-cross-arm', 'linux-libc-headers', 'libgcc', 'gnu-config-native', 'libmpc-native', 'zlib-native', 'automake-native', 'autoconf-native', 'mpfr-native', 'binutils-cross-arm', 'texinfo-dummy-native', 'gmp-native', 'flex-native', 'libtool-native', 'xz-native', 'm4-native', 'gettext-minimal-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_install
+DEBUG: Shell function do_install finished
+DEBUG: Executing shell function remove_libtool_la
+DEBUG: Shell function remove_libtool_la finished

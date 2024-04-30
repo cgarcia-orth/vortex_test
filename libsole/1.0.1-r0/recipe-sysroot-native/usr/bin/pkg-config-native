@@ -1,0 +1,7 @@
+#! /bin/sh
+
+PKG_CONFIG_PATH="/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libsole/1.0.1-r0/recipe-sysroot-native/usr/lib/pkgconfig:/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libsole/1.0.1-r0/recipe-sysroot-native/usr/share/pkgconfig"
+PKG_CONFIG_LIBDIR="/home/vortex/build/Vortex_SourceCode/yocto/build_var-som-mx6/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/libsole/1.0.1-r0/recipe-sysroot-native/usr/lib/pkgconfig"
+unset PKG_CONFIG_SYSROOT_DIR
+
+pkg-config "$@"

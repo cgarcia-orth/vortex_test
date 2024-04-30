@@ -1,0 +1,13 @@
+PN: libjson
+PV: 3.7.0
+PR: r0
+PKGV: 3.7.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Open Source library to serialize/unserialize JSON messages.
+SUMMARY: libjson version 3.7.0-r0
+SECTION: base
+PKG_libjson: libjson
+FILES_libjson: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libjson /usr/lib/libjson/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_libjson: 0

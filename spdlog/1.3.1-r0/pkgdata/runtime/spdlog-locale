@@ -1,0 +1,13 @@
+PN: spdlog
+PV: 1.3.1
+PR: r0
+PKGV: 1.3.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Very fast, header only, C++ logging library.
+SUMMARY: spdlog version 1.3.1-r0
+SECTION: base
+PKG_spdlog-locale: spdlog-locale
+FILES_spdlog-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_spdlog-locale: 0

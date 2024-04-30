@@ -1,0 +1,14 @@
+PN: libsole
+PV: 1.0.1
+PR: r0
+PKGV: 1.0.1
+PKGR: r0
+LICENSE: Zlib
+DESCRIPTION_libsole-staticdev: Sole is a lightweight C++11 library to generate universally unique identificators (UUID), both v1 and v4.  This package contains static libraries for software development.
+SUMMARY_libsole-staticdev: libsole version 1.0.1-r0 - Development files (Static Libraries)
+RDEPENDS_libsole-staticdev: libsole-dev (= 1.0.1-r0)
+SECTION_libsole-staticdev: devel
+PKG_libsole-staticdev: libsole-staticdev
+FILES_libsole-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libsole/*.a
+FILES_INFO: {}
+PKGSIZE_libsole-staticdev: 0

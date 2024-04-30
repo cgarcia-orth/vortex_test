@@ -1,0 +1,13 @@
+PN: libjson
+PV: 3.7.0
+PR: r0
+PKGV: 3.7.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libjson-doc: Open Source library to serialize/unserialize JSON messages.  This package contains documentation.
+SUMMARY_libjson-doc: libjson version 3.7.0-r0 - Documentation files
+SECTION_libjson-doc: doc
+PKG_libjson-doc: libjson-doc
+FILES_libjson-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libjson-doc: 0
